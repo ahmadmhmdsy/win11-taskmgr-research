@@ -1,0 +1,3075 @@
+# taskmgr-mui C:\Windows\System32\en-US\Taskmgr.exe.mui size=82432 machine=14c subsystem=2
+# import DLLs: none
+# resources: 193
+# resource types: {"4":18,"5":17,"6":154,"9":1,"11":1,"16":1,"MUI":1}
+# ascii strings 8, utf16 1095
+===== ASCII =====
+!This program cannot be run in DOS mode.
+.rdata
+@.rsrc
+.rdata
+.rdata$voltmd
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+===== UTF16 =====
+en-US
+CPU Context
+&End task
+End process &tree
+Provide feed&back
+Efficiency &mode
+Set &priority
+&Realtime
+&High
+&Above normal
+&Normal
+&Below normal
+&Low
+Set a&ffinity
+&Analyze wait chain
+&Debug
+UAC &virtualization
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+&Open file location
+Search o&nline
+P&roperties
+Go to &service(s)
+Header Context
+Hi&de column
+&Select columns
+Service Context
+&Start
+S&top
+&Restart
+Open Ser&vices
+Search &online
+Go to &details
+Other Context
+&End process
+&File
+Run &new task
+E&xit
+&Options
+&Always on top
+&Minimize on use
+&Hide when minimized
+Set &default tab
+P&rocesses
+P&erformance
+App h&istory
+S&tartup
+&Users
+Detai&ls
+Ser&vices
+&Show full account name
+Show history for all &processes
+&View
+&Refresh now
+&Update speed
+&High
+&Normal
+&Low
+&Paused
+&Group by type
+&Expand all
+&Collapse all
+Dashboard Context
+C&hange graph to
+&Overall utilization
+&Logical processors
+&NUMA nodes
+&Single engine
+Multiple &engines
+Show &kernel times
+Graph summary vie&w
+&View
+C&PU
+&Memory
+&Disk
+&Network
+&GPU
+View network &details
+&Copy 
+Ctrl+C
+Dashboard Sidebar Context
+Summary vie&w
+&Show graphs
+&Hide graphs
+&Copy 
+Ctrl+C
+Process Context
+Ex&pand
+Colla&pse
+Switch &to
+&Restart
+&End task
+Resource &values
+&Memory
+Percents
+Values
+Dis&k
+Percents
+Values
+&Network
+Percents
+Values
+Provide feed&back
+Efficiency &mode
+&Debug
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+Run &new task
+&Always on top
+&Go to details
+&Open file location
+&Search online
+Propert&ies
+Window Context
+Switch &to
+&Bring to front
+&Minimize
+Ma&ximize
+&End task
+Service Context
+&Stop
+Open Ser&vices
+Search &online
+User Context
+Ex&pand
+Colla&pse
+&Connect
+&Disconnect
+S&ign off
+&Send message
+S&witch user account
+&Manage user accounts
+Startup Item Context
+Ex&pand
+Colla&pse
+&Enable
+&Disable
+&Open file location
+&Search online
+Propert&ies
+App history Context
+Switch &to
+&Search online
+&Properties
+System Tray Context
+&Restore
+&Close
+&Always on top
+Additional ColHeader Context
+&Memory
+Percents
+Values
+D&isk
+Percents
+Values
+&Network
+Percents
+Values
+Startup Process Context
+&Open file location
+&Search online
+Propert&ies
+CPU Context
+&End task
+End process &tree
+&Restart
+Provide feed&back
+Efficiency &mode
+Set &priority
+&Realtime
+&High
+&Above normal
+&Normal
+&Below normal
+&Low
+Set a&ffinity
+&Analyze wait chain
+&Debug
+UAC &virtualization
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+&Open file location
+Search o&nline
+P&roperties
+Go to &service(s)
+Dashboard Context
+C&hange graph to
+&Overall utilization
+&Logical processors
+&NUMA nodes
+&Single engine
+Multiple &engines
+Show &kernel times
+Graph summary vie&w
+&View
+C&PU
+&Memory
+&Disk
+&Network
+&GPU
+NP&U
+View network &details
+&Copy 
+Ctrl+C
+Analyze wait chain
+MS Shell Dlg
+Analyzing
+SysTreeView32
+The analyze wait chain tree shows which processes (root nodes in the tree) are using, or waiting to use, a resource that is being used by another process (child nodes in the tree) and is required for the selected process to continue.
+SysLink
+<A HREF="https://go.microsoft.com/fwlink/?LinkID=136333">More about wait chains</A>
+&End process
+Cancel
+Select processors
+MS Shell Dlg
+SysListView32
+Processors
+Cancel
+Network Details
+Segoe UI
+SysListView32
+Table
+Processor affinity
+MS Shell Dlg
+Which processors are allowed to run "%s"?
+Processor group:
+SysListView32
+Processors
+Cancel
+Processor affinity
+MS Shell Dlg
+Which processors are allowed to run "%s"?
+SysListView32
+Processors
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+Please wait while the process is written to the file.
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Collecting kernel memory dump
+MS Shell Dlg
+Please wait while the live kernel memory dump is written to the file.
+Cancel
+Collecting kernel memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump was unsuccessful.
+Retry
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump could not be performed.
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump was cancelled.
+Checking if low on memory
+MS Shell Dlg
+Please wait while the system checks on memory resources.
+Checking if low on memory
+MS Shell Dlg
+The low memory check failed.
+Collecting process memory dump
+MS Shell Dlg
+Please wait while the process is written to the file.
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Send Message
+MS Shell Dlg
+&Message title:
+Me&ssage:
+Cancel
+Work Unit
+Work UnitGPerformance counter to expose app-specific structural data (WorkUnits).
+App Owner Process ID
+App Owner Process ID^App Owner Process ID identifies the process which owns this work unit in the app architecture.
+Host Process ID
+Host Process ID
+Host Process ID identifies the process which hosts this work unit. The host process could have terminated, so this value may no longer be valid.
+Segoe UI
+Browser
+Crashpad
+Extension
+GPU Process
+Plugin
+Renderer
+Utility
+res`res`*`Resmon
++load`load`config`Configuration file to load
+ open`open`file`Data file to load5Task Manager has been disabled by your administrator.
+File
+Read (B/sec)
+Write (B/sec)
+Name
+User name
+Session ID
+CPU time
+Cycle
+Working set (memory)
+Peak working set (memory)
+Working set delta (memory)#Memory (active private working set)
+Memory (private working set)
+Memory (shared working set)
+Commit size
+Paged pool
+NP pool
+Page faults
+PF Delta
+Base priority
+Handles
+Threads
+User objects
+GDI objects
+I/O reads
+I/O writes
+I/O other
+I/O read bytes
+I/O write bytes
+I/O other bytes
+Image path name
+Operating system context
+Platform
+Status
+Elevated
+UAC virtualization
+Description
+Data execution prevention
+Disk total (B/sec)
+Total (B/sec)
+Send (B/sec)
+Receive (B/sec)
+Total (B/sec)
+Response time (ms)
+Name
+Group
+Logical disk
+I/O priority
+Job object ID
+Package name
+Enterprise context
+Power throttling
+Architecture"Hardware-enforced Stack Protection
+Extended Control Flow Guard
+Continuing
+Paused
+Pausing
+Running
+Starting
+Stopped
+Stopping
+Not responding
+Running
+Suspended
+Efficiency mode
+Background
+Normal
+High
+Critical
+Below normal
+Normal
+Above normal
+High
+Realtime
+Windows XP
+Windows Vista
+Windows 7
+Windows 8
+Windows 8.1
+%1 (%2)
+16 bit
+32 bit
+64 bit
+32 bit
+Disabled
+Enabled
+Disabled
+Compatible modules only
+All modules$Compatible modules only (audit mode)
+All modules (audit mode)
+Disabled
+Enabled (audit mode)
+Enabled
+Return address signing
+System interrupts7Deferred procedure calls and interrupt service routines
+System Idle Process(Percentage of time the processor is idle
+IPv4 loopback
+IPv6 loopback
+IPv4 unspecified
+IPv6 unspecified
+Connected
+Disconnected
+Connecting
+Unknown
+Non operational
+Unknown
+Infrared baseband
+Vendor specific
+Unknown
+None
+GPRS
+EDGE
+UMTS
+HSDPA
+HSUPA
+HSPA
+1xRTT
+1xEVDO
+1xEVDO RevA
+1xEVDV
+3xRTT
+1xEVDO RevB
+Bluetooth PAN
+Ethernet
+Details
+Services
+Performance
+Processes
+Startup
+Users
+App history
+Task Manager
+Do you want to end %s?
+If an open program is associated with this process, it will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+End process*Do you want to end the process tree of %s?
+If open programs or processes are associated with this process tree, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+End process tree*Do you want to end the selected processes?
+If open programs are associated with the selected processes, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do you want to end the selected process trees?
+If open programs or processes are associated with the selected process trees, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+Select columns
+1Select the columns that will appear in the table.
++Do you want to end the system process '%s'?
+Ending this process will cause Windows to become unusable or shut down, causing you to lose any data hasn't been saved. Are you sure you want to continue?
+Shut down#Abandon unsaved data and shut down.+Do you want to change the priority of '%s'?
+JChanging the priority of certain processes could cause system instability.
+Change priority
+Unable to change priorityIUnable to set priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Efficiency mode. Do you want to continue?
+MWhen attempting to execute the command, the following system error occurred: 
+1 B/sec
+1 KB/sec
+10 KB/sec
+100 KB/sec
+1 MB/sec
+10 MB/sec
+100 MB/sec
+1 GB/sec
+1 bps
+10 Kbps
+1 Mbps
+10 Mbps
+100 Mbps
+1 Gbps
+10 Gbps
+100 Gbps
+100 Kbps
+100 Kbps
+500 Kbps
+1 Mbps
+11 Mbps
+54 Mbps
+100 Mbps
+500 Mbps
+1 Gbps
+10 Gbps
+100 Gbps
+450 Kbps
+800 Kbps
+7.7 Mbps
+32 Mbps
+50 Mbps
+200 Mbps
+300 Mbps
+2 Gbps
+10 Gbps
+100 KB/s
+500 KB/s
+1 MB/s
+10 MB/s
+100 MB/s
+250 MB/s
+500 MB/s
+1 GB/s
+10 GB/s
+100 GB/s
+450 KB/s
+800 KB/s
+7 MB/s
+60 MB/s
+125 MB/s
+200 MB/s
+300 MB/s
+2 GB/s
+10 GB/s
+Kbps
+Mbps
+Gbps
+B/sec
+KB/s
+MB/s
+GB/s
+5 Mbps
+26 Mbps
+250 Mbps
+3.6 Mbps
+17 Mbps
+113 Mbps
+%I64d B/sec disk I/O
+%I64d KB/sec disk I/O
+%I64d MB/sec disk I/O
+%I64d GB/sec disk I/O
+%I64d bps network I/O
+%I64d Kbps network I/O
+%I64d Mbps network I/O
+%I64d Gbps network I/O
+%I64d%% CPU usage
+%I64d%% Used physical memory
+%I64d Hard faults/sec
+%I64d%% Maximum frequency
+%I64d%% network utilization
+%I64d%% Highest active time
+%I64d MB in use
+%I64d MB available
+%d MB
+Disk %s (%s) queue length
+%s (PID: %d) Thread: %s0One or more threads of %s are in waiting status.'%s is waiting for another process (%s).
+%s is waiting for a process in deadlock (%s). You can end the deadlocked process to resolve the issue immediately, or you can wait to see if the issue resolves itself.
+%s is waiting for multiple processes in deadlock. You can end the deadlocked processes to resolve the issue immediately, or you can wait to see if the issue resolves itself.
+%s is in deadlock. You can end the process to resolve the deadlock immediately, or you can wait to see if the issue resolves itself.
+%s is in deadlock with one or more processes. You can end the processes to resolve the deadlock immediately, or you can wait to see if the issue resolves itself.
+%s is not responding.<One or more threads of %s are waiting to finish network I/O.=%s is waiting for another process (%s) to finish network I/O.
+%s is running normally.
+%s is suspended.
+ (Page file)
+%s (%s)
+ (NTFS volume log)
+ (NTFS master file table)
+ (NTFS free space map)
+%s *32
+%1%2
+Process ID
+,Total processor utilization across all coresDTotal processor time, in seconds, used by a process since it started<Current percent of CPU cycle time consumption by the process9Amount of physical memory currently in use by the process5Maximum amount of physical memory used by the process*Change in working set usage by the processxAmount of physical memory in use by the process that can't be used by other processes (excludes suspended UWP processes)VAmount of physical memory in use by the process that cannot be used by other processesWAmount of physical memory in use by the process that can be shared with other processesIAmount of virtual memory reserved by the operating system for the process\Amount of pageable kernel memory allocated by the kernel or drivers on behalf of the process`Amount of non-pageable kernel memory allocated by the kernel or drivers on behalf of the processCNumber of page faults generated by the process since it was startedHChange in the number of page faults in the process since the last updateMRanking that determines the order in which threads of a process are scheduled-Current number of handles open by the process
+Number of active threadspNumber of window manager objects (windows, menus, cursors, keyboard layouts, monitors, etc.) used by the process)Number of GDI objects used by the processKNumber of read I/O operations generated by the process since it was startedLNumber of write I/O operations generated by the process since it was started{Number of non-read/non-write I/O operations (for instance, control functions) generated by the process since it was started;Total number of bytes read by the process in I/O operations>Total number of bytes written by the process in I/O operationssTotal number of bytes read by the process in I/O operations other than read/write (for instance, control functions)
+Path of the executable file1Full command line specified to create the process8Operating system context in which the process is running;Platform (16 bit or 32 bit) on which the process is running;Platform (32 bit or 64 bit) on which the process is running
+Process execution status8Specifies whether the process is running elevated or not
+dSpecifies whether Data Execution Prevention (a security feature) enabled or disabled for the process*Job object in which the process is running,File: Name of the file in use by the processVRead (B/sec): Average number of bytes per second read from the file in the last minuteXWrite (B/sec): Average number of bytes per second written to the file in the last minute&IO priority: Priority of I/O transfers6Response time (ms): Disk response time in millisecondsHSend (B/sec): Average number of bytes per second sent in the last minuteOReceive (B/sec): Average number of bytes per second received in the last minutePTotal (B/sec): Average number of bytes per second transferred in the last minute
+Service name
+Service process ID
+Description of the service
+Service status
+Service groupGCPU: Current percent of CPU consumption by services within this process
+#Logical drive: Logical drive letterfTotal (B/sec): Average number of bytes per second read from and written to the file in the last minute6Amount of time spent by the CPU executing instructions;Amount of network activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for notifications8Amount of network activity over a non-metered connection$Download activity by the application"Upload activity by the application,Architecture on which the process is runningsSpecifies the status of Hardware-enforced Stack Protection (a security feature using shadow stacks) for the process]Specifies the status of Extended Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Protection (a security feature using return address signing) for the process
+oSpecifies whether User Account Control (UAC) virtualization is enabled, disabled, or not allowed in the process
+/Manage running apps and view system performance
+Default System Session
+Service Host: ActiveX Installer
+Service Host: Bluetooth Support*Service Host: DCOM Server Process Launcher
+Service Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)
+Service Host: Local Service.Service Host: Local Service (No Impersonation)0Service Host: Local Service (Network Restricted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local System (Network Restricted)
+Service Host: Local System
+Service Host: Network Service0Service Host: Network Service (No Impersonation)2Service Host: Network Service (Network Restricted)
+Service Host: BranchCache
+Service Host: Remote Registry#Service Host: Remote Procedure Call
+Service Host: Windows Backup
+Service Host: Windows Defender5Service Host: Microsoft Software Shadow Copy Provider
+Service Host: Windows Biometric"Service Host: Windows Color System%Service Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helper Service*Service Host: Internet Information Service
+Service Host: Printer Services
+*Service Host: File Server Resource Manager
+Service Host: Group Policy$Service Host: Unistack Service Group
+Service Host: UtcSvc
+Service Host: 
+pHardware reserved (%1!s! MB)
+Memory that is reserved for use by the BIOS and some drivers for other peripherals
+In use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+In use compressed (%2!s! MB)
+Memory compression is not enabledlModified (%1!s! MB)
+Memory whose contents must be written to disk before it can be used for another purposeYStandby (%1!s! MB)
+Memory that contains cached data and code that is not actively in use
+Free (%1!s! MB)
+Memory that is not currently in use, and that will be repurposed first when processes, drivers, or the operating system need more memory
+Cached (%1!s! MB)
+Amount of memory (including standby and modified memory) containing cached data and code for rapid access by processes, drivers, and the operating system
+Available (%1!s! MB)
+Amount of memory (including Standby and Free memory) that is immediately available for use by processes, drivers, or the operating system
+In use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+In use compressed (%2!s! MB)
+Compressed memory stores an estimated %3!s! MB of data, saving the system %4!s! MB of memory
+Other
+Unknown
+Reserved
+Not Found
+Logical non-volatile device
+Other
+Unknown
+Chip
+Proprietary Card
+Row of chips
+Not Found
+Memory composition chart
+100%
+Paused
+4 minutes
+60 seconds
+30 seconds
+Modified
+Disk
+In Use
+Standby
+Free
+Memory
+Network
+Services
+Memory
+Tab control
+Charts
+Tables
+Process details
+Base speed:
+Sockets:
+Logical processors:
+Host logical processors:
+Virtualization:
+Virtual machine:
+L1 cache:
+L2 cache:
+L3 cache:
+Enabled
+Disabled
+Not capable
+Cores:
+Virtual processors:
+Hyper-V support:
+Utilization
+Speed
+Up time
+Processes
+Threads
+Handles
+% Utilization over 4 minutes
+% Utilization over 30 seconds
+Logical processors
+% Utilization over 60 seconds
+% Utilization
+%s GHz
+% Utilization (Paused)
+Open Resource Monitor
+%1!d!%2!s!
+CPU %d
+CPU %1!d! (Node %2!d!)
+NUMA node %d
+%s - Parked
+%1!d!%2!s!
+%1!d!%2!s! (%3!d!%4!s!)
+Open Resource Monitor icon
+Open Services icon
+CPU %d @ %s GHz
+Speed:
+Slots used:
+%1!u! of %2!u!
+Available
+Cached
+Committed
+In use
+Paged pool
+Non-paged pool
+Memory usage
+Memory composition
+%0.1f MB %s
+%0.1f GB %s
+%1.0f MB %s
+%1.0f GB %s
+%u MHz
+%s KB
+%1!s!/%2!s! MB
+%1!s! (%2!s!)
+%1!s!/%2!s! GB
+Form factor:
+Hardware reserved:
+Maximum memory:
+(%.0f%%)
+Slot %1!u!: %2!s!, %3!hu! MHz
+Slot %1!u!: empty
+%1!s! %2!s!
+%1!s!/%2!s! TB
+%s MB
+%s GB
+%s TB
+%s PB
+In use (Compressed)
+Disk %1!d! (%2!s!)
+Type:
+Capacity:
+Formatted:
+System disk:
+Page file:
+Read speed
+Write speed
+Average response time
+Disk transfer rate
+Active time
+100%
+Disk %d
+%s ms
+%1!s! %2!s! 
+%.0f%%
+Persistent Memory
+Removable
+Unknown
+Total installed memory
+Memory usage in percentage
+Overall CPU chart pane
+Logical CPU chart pane
+Numa node CPU chart pane
+Available range
+Cached range
+Separator bar
+CPU Icon
+Memory Icon
+Disk Icon
+Network Icon
+Disconnected network graph
+Dynamic Resource Information
+Static Resource Information
+Resource Chart View
+Disconnected network icon
+GPU Icon
+Adapter name:
+Service provider:
+Connection type:
+IPv4 address:
+IPv6 address:
+DNS name:
+Domain name:
+Device name:
+SSID:
+Throughput
+Receive
+Send
+%1!s! %2!s!
+Signal strength:
+%1!s! 
+%1!s! %2!s! 
+Not connected
+CPU activity
+Private working set$Read and write activity on this disk@Percentage of time the disk is processing read or write requests)Send and receive activity on this network
+GPU activityASend and receive activity on this Bluetooth personal area network
+Property
+Network utilization
+Link speed
+State
+Bytes sent throughput
+Bytes received throughput
+Bytes throughput
+Bytes sent
+Bytes received
+Bytes
+Bytes sent per interval
+Bytes received per interval
+Bytes per interval
+Unicasts sent
+Unicasts received
+Unicasts
+Unicasts sent per interval
+Unicasts received per interval
+Unicasts per interval
+Nonunicasts sent
+Nonunicasts received
+Nonunicasts
+Nonunicasts sent per interval!Nonunicasts received per interval
+Nonunicasts per interval
+Generic Bluetooth Adapter
+Ethernet
+Wi-Fi
+Mobile
+Wi-Fi Direct
+WLAN Direct
+CPU %1!u!
+CPU %2!u! (Node %1!d!)
+<All Processors>
+Group %1!u!
+WLAN
+Busy
+Disabled
+Enabled
+Not responding
+Suspended
+Waiting for user
+Shadowing
+Disconnected
+Local
+Remote
+Very low
+Moderate
+High
+Very high
+Efficiency mode
+User
+Process
+Window
+Service
+Startup item
+Startup process
+Tray icon
+%1: %2
+Apps
+%1 %2
+%1 %2 %3
+%1 %2 %3 %4 %5
+Name
+Type
+Status
+Publisher
+Process name
+Command line
+Memory
+Disk
+Network
+Startup impact
+Startup type
+Disk I/O at startup
+CPU at startup
+Running now
+Disabled time
+Client name
+Session
+User
+%1 (%2!d!)
+%s MB
+%s ms
+%s MB
+%s MB/s
+%s Mbps
+%s%%
+Name
+CPU time
+Network
+Notifications
+Metered network
+Non-metered network
+Downloads
+Uploads
+Sorted (ascending)
+Sorted (descending)
+None
+Apps
+Background processes
+Windows processes
+Resource &values
+Disabled
+Enabled
+Not allowed
+Background process
+Windows process
+More details
+Fewer details
+Row details
+List of items
+More &details
+Fewer &details
+Create new taskeType the name of a program, folder, document, or Internet resource, and Windows will open it for you.2User %s (SessionId=%d) could not be disconnected.
+>If you sign out a user, the user's unsaved data might be lost.
+Do you want to continue?
+Sign out user9Are you sure you want to disconnect the selected user(s)?
+Disconnect user
+Message from %1 - %2:Your message to user with SessionId=%d could not be sent. 
+View
+Column header
+There are no running apps%The operation could not be completed.,The operation is not valid for this process.
+Unable to terminate process Unable to terminate process tree
+Unable to attach debugger
+Unable to change priority(Unable to access or set process affinity
+Dump process
+Command Bar
+Icon
+Unable to start service
+Unable to stop service
+Unable to restart service
+Unable to set virtualization.Do you want to change virtualization for '%s'?
+Changing virtualization for a process may lead to undesired results including loss of data. You should do this only for debugging.
+Change virtualization2Unhandled error occurred while connecting.
+#%u %s"Enter the selected user's password{You need administrator privileges to complete this task. Close Task Manager, then run it as an administrator and try again.
+Access denied.!Unable to turn on Efficiency mode
+Unable to select columns
+~You need administrator privileges to complete this task. Select 'Run as administrator' from the Navigation pane and try again.
+The necessary debug privilege could not be acquired. Ensure that you are running Task Manager as an administrator and try again.@The memory dump timed out or was manually cancelled by the user.:The memory dump was aborted due to system memory pressure.!Memory dump error code: NTSTATUS \After several attempts, the live memory dump could not be completed. Please try again later.zToo little time has passed since the last live memory dump request. Please wait at least two seconds for the next attempt.
+Memory dump process
+Live kernel memory dump process
+0Do you want to turn on Efficiency mode for '%s'?
+Efficiency mode will lower process priority and improve power efficiency but may cause instability for certain processes. Do you want to continue?
+Turn on Efficiency mode
+None
+Not measured
+Medium
+High
+Registry
+Folder
+%1 %2
+E&nable
+Dis&able
+Last BIOS time: 
+%1 seconds
+&End task
+&Restart
+&Switch user
+Si&gn out
+Dis&connect
+Open Services
+Switch &to
+Resource usage text
+Delete usage history
+No data available
+@Resource usage since %1!s! for current user and system accounts.
+Uninstalled processes
+Remote processes
+System4Resource usage since %1!s! for current user account.
+Duration :
+CCPU %1!d!%2!s!
+Memory %3!d!%4!s!
+Disk %5!d!%6!s!
+Network %7!d!%8!s! CPU %1!d!%2!s!
+Memory %3!d!%4!s!
+%There are no startup items to display,Total processor utilization across all cores*Physical memory in use by active processes,Total utilization across all physical drives2Network utilization on the current primary networkbDegree of impact from CPU and disk activity, measured during startup and updated with each restartDDisk activity, measured during startup and updated with each restartCCPU activity, measured during startup and updated with each restartKImpact hasn't been measured yet. Restart your PC to measure startup impact.*Highest utilization across all GPU enginesLThis UWP process group is suspending processes to improve system performance;This UWP process is suspended to improve system performancePThis process group is in efficiency mode to limit resources used by the process.JThis process is in efficiency mode to limit resources used by the process.
+-Windows system process for memory compression
+Personal
+Exempt
+Unenlightened
+Enlightened
+Permissive
+File copy exempt
+Disabled
+Enabled
+Microsoft Edge Manager
+Browser Extensions
+Microsoft Web Platform Control
+User Interface Service
+Chakra JIT Compiler
+Service Worker Host
+Background Tab Pool
+Adobe Flash Player
+Microsoft Edge Service Host
+Developer Tools Server
+Adapter name:
+Driver version:
+Driver date:
+DirectX version:
+Utilization
+%1!d!%2!s!
+% Utilization
+GPU %d
+GPU %d (Link %d)
+100%
+GPU Memory
+Dedicated GPU memory usage
+Shared GPU memory usage
+Dedicated GPU memory usage
+Shared GPU memory usage
+%.0f%%
+GPU engine
+GPU engine
+GPU dedicated 
+GPU system*Highest utilization across all GPU engines
+Most utilized GPU engineUTotal amount of GPU dedicated graphics memory in use (across all GPUs) by the processETotal amount of system memory in use (across all GPUs) by the process
+Overall GPU chart pane
+Multiple engine GPU chart pane
+Physical location:
+Hardware reserved memory:
+Dedicated GPU memory
+Shared GPU memory
+Power usage
+Power usage trend.CPU, Disk, and GPU impact on power consumption8CPU, Disk, and GPU impact on power consumption over time
+GPU Temperature
+(%d 
+1.0 : Compute
+Engine %u
+Video Decode
+Video Encode
+Copy
+Video Processing
+Scene Assembly
+Legacy Overlay
+Crypto
+,This option is managed by your organization.
+$Your device is running low on memoryNWe recommend you close some of the apps and processes below to free up memory.
+DPI AwarenessEDefault mode for how the application interacts with high DPI displays
+Unavailable
+Unaware
+Unaware (GDI Scaled)
+System
+Per-Monitor
+Per-Monitor (v2)
+0Unable to open feedback hub for selected process
+NPU %d
+Dedicated memory usage
+Shared memory usage
+Dedicated memory
+Shared memory
+Dedicated memory usage
+Shared memory usage
+NPU activity
+Total memory
+Media
+Media
+Media %d
+Media Accelerator activity
+Temperature
+ARM64
+ARM64 (x86 compatible)
+ARM64 (x64 compatible)
+Arm64
+Arm64 (x86 compatible)
+Arm64 (x64 compatible)
+JCouldn't get current process token. OpenProcessToken returns HRESULT 0x%X.LCouldn't lookup SeDebugPrivilege name. LookupPrivilegeValue returns hr 0x%X.HCouldn't acquire debug privilege. AcquireDebugPrivilege returns hr 0x%X.DCouldn't enable debug privilege. AdjustTokenPrivileges returns 0x%X.ZTimeout expired for live kernel memory dump collection. Please try again in a few seconds.nFailure while waiting for live kernel memory dump collection (status 0x%X). Please try again in a few seconds.dCancellation thread failed to wait until memory dump procedure timed out. Unknown wait failure 0x%X.?Failed to create thread for collecting memory dump. Error 0x%X.6Thread for collecting memory dump exited. Status 0x%X.1Directory handle creation failed with error 0x%X.=Live kernel memory dump file creation failed with error 0x%X.QFailed to set the security descriptor for the memory dump directory. Status 0x%X.&Failed to allocate Admin SID. Hr 0x%X.dFailed to create an ACL for live kernel memory dump (error 0x%X). Please check file access settings.AFailed to apply ACL to live kernel memory dump file (error 0x%X).sCurrent process does not have elevated privileges to collect live kernel memory dumps. Please run as Administrator.vToo little time has passed since the last live kernel memory dump request. Please wait and try again in a few seconds.ONo remaining attempts to retry this request. Please try again in a few seconds.cLive kernel memory dump cancel event was signalled. NtSystemDebugControl returned STATUS_CANCELLED.UThe live kernel memory dump collection was aborted due to system memory availability.:The live kernel memory dump failed with error code = 0x%X.3Live kernel memory dump was collected successfully.#Collecting live kernel memory dump.2Live kernel memory dump was written to path [%ls].GError parsing command line: argument already defined: [%ls] (index %d).?Error parsing command line: unknown argument: [%ls] (index %d).&Failed to initialize app dependencies.
+&Launch Task Manager from Startup page.$Run Task Manager in low-memory mode."Disable rejuvenated Xaml-based UX.
+Display this help message.6Collect a live memory dump and terminate Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, excluding some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to live memory dump (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if system is under memory pressure.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v arguments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR)
+Press Enter to change sorting.
+%u MT/s
+Slot %1!u!: %2!s!, %3!hu! MT/s
+Summary view
+SCSI
+ATAPI
+1394
+Fibre Channel
+RAID
+iSCSI
+SATA
+Virtual
+Spaces
+NVMe
+%1 (%2)
+CPU utility(Total processor utility across all cores
+ instances.
+IsolationJIsolation technology protecting apps and improving the security of your PC
+IsolationJIsolation technology protecting apps and improving the security of your PC
+Silo
+AppContainer
+NPU engine*Highest utilization across all NPU engines
+NPU engine
+Dedicated NPU memory
+Shared NPU memory*Highest utilization across all NPU engines
+Most utilized NPU engineLTotal amount of NPU dedicated memory in use (across all NPUs) by the processTTotal amount of shared system memory in use for NPU (across all NPUs) by the process
+Transient processes-CPU usage attributed to short-lived processes
+$Service Host: Windows App Management
+Response Time
+Info
+Start
+Stop
+Error
+Information
+Microsoft-Windows-Diagnosis-AdvancedTaskManager
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Microsoft Corporation
+FileDescription
+Task Manager
+FileVersion
+10.0.26100.9549 (WinBuild.160101.0800)
+InternalName
+Task Manager
+LegalCopyright
+ Microsoft Corporation. All rights reserved.
+OriginalFilename
+Taskmgr.exe.mui
+ProductName
+Microsoft
+ Windows
+ Operating System
+ProductVersion
+10.0.26100.9549
+VarFileInfo
+Translation
+===== STRINGTABLE (1673) =====
+16512	  100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbps10 Gbps100 Gbps450 Kbps800 Kbps䅐7.7 Mbps3
+16512	 ,Total processor utilization across all coresDTotal processor time,
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	                   Adapter name:Service provider:Connection type:IPv4 address:IPv6 address:	DNS name:Dom
+16512	   䅐         NamePIDTypeStatus	PublisherProcess 
+16512	              The necessary debug privilege c
+16512	              The necessary debug privilege c
+16512	 Last BIOS time: 
+%1 seconds          䅐 	&End task&Restart&Switch user	Si&gn outDis&connectOpen 
+16512	@Resource usage since %1!s! for current user and system accounts. Uninstalled processesRemote proce
+16512	       䅐AppContainer               NPU
+NPU engine*Highest utilization across a
+16513	0Total installed memoryMemory usage in percentageOverall CPU chart paneLogical CPU chart paneNuma node CP
+16514	0%0%0%       100%Paused	4 minutes
+16514	0%0%0%       100%Paused	4 minutes
+16514	0%0%0%       100%Paused	4 minutes
+16514	0%0%0%       100%Paused	4 minutes
+16514	0%0%0%       100%Paused	4 minutes
+16515	
+16515	USB  Unknown0Total installed memoryMemory usage in percentageOv
+16515	
+16516	KbpsMbpsGbpsB/secKB/sMB/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I64d B/sec 
+16516	KbpsMbpsGbpsB/secKB/sMB/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I64d B/sec 
+16516	KbpsMbpsGbpsB/secKB/sMB/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I64d B/sec 
+16516	KbpsMbpsGbpsB/secKB/sMB/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I64d B/sec 
+16516	
+16516	CopyVideo ProcessingScene AssemblyLegacy OverlayCrypto        ,This option is managed by your org
+16516	CopyVideo ProcessingScene AssemblyLegacy OverlayCrypto        ,This option is managed by your org
+16517	HSUPAHSPALTE1xRTT1xEVDO1xEVDO RevA1xEVDV3xRTT1xEVDO RevB
+16517	%s GB%s TB%s PB%s%s%s%sIn use (Compressed)䅐R: W: Disk %1
+16517	
+16518	NormalAbove normalHighRealtimeN/A  
+Windows XPWindows Vista	Windows 7	Windows 8Windows 8.1 %1 (%2)16
+16518	NormalAbove normalHighRealtimeN/A  
+Windows XPWindows Vista	Windows 7	Windows 8Windows 8.1 %1 (%2)16
+16518	1xEVDV3xRTT1xEVDO RevBUMB5G Bluetooth PANEthernet䅐Details
+16518	1xEVDV3xRTT1xEVDO RevBUMB5G Bluetooth PANEthernet䅐Details
+16518	WindowServiceStartup itemStartup process        䅐     	Tray icon%1: %2AppApps%1 %2%1 %2 %3%1 %2 %3 %4 %5  
+16519	10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 M
+16519	10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 M
+16519	10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 M
+16520	
+16520	200 Mbps300 Mbps2 Gbps10 Gbps 100 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s100 GB
+16520	450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s     䅐           bpsKbpsMbpsGbpsB/se
+16520	200 Mbps300 Mbps2 Gbps10 Gbps 100 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s100 GB
+16520	450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s     䅐           bpsKbpsMbpsGbpsB/se
+16520	450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s     䅐           bpsKbpsMbpsGbpsB/se
+16520	
+16521	10 MB/sec
+100 MB/sec1 GB/sec1 bps10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kb
+16521	4 minutes
+60 seconds
+30 secondsModified   CPU Disk    In UseStandbyFreeMemory   NetworkGPU 
+16521	
+16521	
+16522	I/O writes	I/O otherI/O read bytesI/O write bytesI/O other bytes䅐Image path nameOperating system contextPlatf
+16522	  Start
+ 
+16523	Dis&connectOpen Services              
+Switch &toResource usage text Delete usage history No data available @Res
+16524	Wi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!u! (Node %1!d!)<All Processors>Group %1!u!        
+16525	Service groupGCPU: Current percent of CPU consumption by services within this process #Logical drive: Logical drive
+16525	Service groupGCPU: Current percent of CPU consumption by services within this process #Logical drive: Logical drive
+16525	
+Memory used by processes, drivers, or th
+16525	
+Amount of memory (including Standby and 
+16527	Change priorityUnable to change priorityIUnab
+16527	Change priorityUnable to change priorityIUnab
+16527	Change priorityUnable to change priorityIUnab
+16527	Virtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 c
+16527	Virtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 c
+16527	Virtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 c
+16527	Virtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 c
+16527	Virtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 c
+16527	Windows process䅐               More detailsFewer detailsRow details      List of items More &detailsFewer &de
+16532	Message from %1 - %2:Your message to user with SessionId=%d could not be sent. ViewColumn headerThere are no ru
+16532	Dedicated GPU memoryShared GPU memoryPower usagePower u
+16534	% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %1!d! (Node %2!d!)NUMA node %d%s - Parked
+%1!d!%2!s!
+16536	Most utilized NPU engineLTotal amount of NPU dedicated memory in use (across all NPUs) by the processTTotal amount 
+16543	Service Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service Host: Local Service.Service 
+16544	to continue?Select columns䅐1Select the columns that will appear in the table.          +Do you want to end the syst
+16544	MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s 
+16544	Guard               
+ContinuingPausedPausingRunningStartingStoppedStopping 䅐  Not respondingRunning	SuspendedE
+16544	bit     YesNo    DisabledEnabled   DisabledC
+16544	service routinesSystem Idle Process(Percentage of time the processor is idle      IPv4 loopbackIPv6 loopbackIPv4
+16544	you will lose any unsaved data. If you end a system process, it might result in system instability. 
+16544	might result in system instability. Are you sure you want to continue?Select columns䅐1Select the columns that will 
+16544	priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Efficiency mode. Do 
+16544	to continue?Select columns䅐1Select the columns that will appear in the table.          +Do you want to end the syst
+16544	MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s 
+16544	procedure calls and interrupt service routinesSystem Idle Process(Percentage of time the processor 
+16544	in system instability. Are you sure you want to continue?End process*Do you want to end the process tree of %s?ßIf 
+16544	the priority of '%s'?䅐JChanging the priority of certain processes could cause system instability.Cha
+16544	MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s1
+16544	process*Do you want to end the process tree of %s?ßIf open programs or processes are associated with
+16544	and you will lose any unsaved data. If you end a system process, it might result in system instabilit
+16544	Are you sure you want to continue?End process
+16544	the priority of '%s'?䅐JChanging the priority of certain processes could cause system instability.Cha
+16544	MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s1
+16544	result in system instability. Are you sure you want to continue?.Do you want to end the selected process trees?èIf o
+16544	the priority of '%s'?䅐JChanging the priority of certain processes could cause system instability.Cha
+16544	MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s1
+16544	to continue?Select columns䅐1Select the columns that will appear in the table.          +Do you want to end the syst
+16544	MB/s60 MB/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s 
+16544	you want to continue?               MWhen attempting to execute the command, the following system error occurre
+16544	           䅐1 B/sec1 KB/sec	10 KB/sec
+100 KB/sec1 MB/se
+16544	GB/s10 GB/s100 GB/s450 KB/s800 KB/s7 MB/s60
+16544	of the process`Amount of non-pageable kernel memory allocated by the kernel or drivers on behalf of th
+16544	processCNumber of page faults generated by the process since it was startedHChange in the number of p
+16544	in millisecondsHSend (B/sec): Average number of bytes per second sent in the last minuteOReceive (B/s
+16544	for the process]Specifies the status of E
+16544	system performance   Default System SessionService Host: ActiveX InstallerService Host: Bluetooth Support*Service Ho
+16544	Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service Host: File Server Resou
+16544	by the process)Number of GDI objects used by the processKNumber of read I/O operations generated by 
+16544	non-read/non-write I/O operations (for instance, control functions) generated by the process since it 
+16544	operationssTotal number of bytes read by the process in I/O operations other th
+16544	read/write (for instance, control functions)Path of the executable file1Full command line specified to create
+16544	the process is running,File: Name of the file in use by the processVRead (B/sec): Average number of byte
+16544	per second read from the file in the last minuteXWrite (B/sec): Average number of bytes per second written to the f
+16544	number of bytes per second received in the last minutePTotal (B/sec): Average number of bytes per sec
+16544	network usage for notifications8Amount of network activity over a non-metered connection$Download activity b
+16544	the application"Upload activity by the application,Architecture on which the process is runningsSpecifies the status of H
+16544	system performance   Default System SessionService Host: ActiveX InstallerService Host: Bluetooth Support*Service Ho
+16544	Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service Host: File Server Resou
+16544	by the process since it was started;Total number of bytes read by the process in I/O operations>Tota
+16544	number of bytes written by the process in I/O operationssTotal number of bytes read by the process in I/O op
+16544	line specified to create the process8Operating system context in which the process is running;Platfo
+16544	in the last minutePTotal (B/sec): Average number of bytes per second transferred in the last minute
+16544	for the process]Specifies the status of E
+16544	system performance   Default System SessionService Host: ActiveX InstallerService Host: Bluetooth Support*Service Ho
+16544	Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service Host: File Server Resou
+16544	in millisecondsHSend (B/sec): Average number of bytes per second sent in the last minuteOReceive (B/s
+16544	for the process]Specifies the status of E
+16544	system performance   Default System SessionService Host: ActiveX InstallerService Host: Bluetooth Support*Service Ho
+16544	Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service Host: File Server Resou
+16544	for the process]Specifies the status of E
+16544	system performance   Default System SessionService Host: ActiveX InstallerService Host: Bluetooth Support*Service Ho
+16544	Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service Host: File Server Resou
+16544	Restricted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service 
+16544	the operating systemAvailable (%1!s! MB)
+Amount of memory (including Standby and Free memory) that
+16544	and the operating systemAvailable (%1!s! MB
+16544	used by processes, drivers, or the operating system
+
+In use compressed (%2!s! MB)
+Memory compression is not enabledlMo
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+
+In use compressed (%2!s! MB)
+Co
+16544	CardRow of chips	Not Found          䅐Die               䅐           Memory composition chart           0  00    䅐0
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	CardRow of chips	Not Found          䅐Die               䅐           Memory composition chart           0  00    䅐0
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	Resource Monitor 
+%1!d!%2!s!CPU %dCPU %1!d! (Node %2!d!)NUMA node %d%s - Parked
+%1!d!%2!s!%1!d!%2!s! (%3!
+16544	IconNetwork IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResou
+16544	empty%1!s! %2!s! ...%1!s!/%2!s! TB%s MB%s GB%s TB%s
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	%2!s! ...%1!s!/%2!s! TB%s MB%
+16544	chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Icon	Disk Icon
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	IconNetwork IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResou
+16544	provider:Connection type:IPv4 address:IPv6 address:	DNS name:Domain name: Device name:SSID: 
+Th
+16544	interval!Nonunicasts received per intervalNonunicasts per intervalGeneric Bluetooth AdapterEthernetWi-FiMobil
+16544	Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System dis
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	(Node %1!d!)<All Processors>Gro
+16544	%1!u!           WLAN                BusyDisabledEnabledNot responding	SuspendedWaiting for user	Shadowing
+16544	processesWindows processes Resource &values DisabledEnabledNot allowed   AppBackground proces
+16544	you want to change virtualization for '%s'?Changing virtualization for a process may lead to undesired results
+16544	while connecting.
+
+#%u %s"Enter the selected user's password{You need administrator privileges to co
+16544	you are running Task Manager as an administrator and try again.@The memory dump timed out or was manually cancelled 
+16544	out a user, the user's unsaved data might be lost.Do you want to continue?Sign out user9Are you sure you wan
+16544	to disconnect the selected user(s)?Disconnect userMessage from %1 - %2:Your message to user with SessionId=%d coul
+16544	not be sent. ViewColumn headerThere are no running apps%The operation could not be completed.,The
+16544	error code: NTSTATUS \After several attempts, the live memory dump could not be completed. Please try again late
+16544	out a user, the user's unsaved data might be lost.Do you want to continue?Sign out user9Are you sure you wan
+16544	to disconnect the selected user(s)?Disconnect userMessage from %1 - %2:Your message to user with SessionId=%d coul
+16544	not be sent. ViewColumn headerThere are no running apps%The operation could not be completed.,The
+16544	error code: NTSTATUS \After several attempts, the live memory dump could not be completed. Please try again late
+16544	process Unable to terminate process treeUnable to attach debuggerUnable to change priority(Unable t
+16544	task. Close Task Manager, then run it as an administrator and try again.Access denied.!Unable to turn on Efficienc
+16544	results including loss of data. You should do this only for debugging.Change virtualization2Unhandl
+16544	memory dump request. Please wait at least two seconds for the next attempt.Memory dump processLive 
+16544	of impact from CPU and disk activity, measured during startup and updated with each restartDDisk acti
+16544	by the process.JThis process is in efficiency mode to limit resources used by the process.          
+16544	current user and system accounts. Uninstalled processesRemote processes䅐System4Resource usage since %1!s! for c
+16544	paneMultiple engine GPU chart pane   Physical location:Hardware reserved memory:Dedicated GPU memoryShared GPU 
+16544	processes below to free up memory.      DPI AwarenessEDefault mode for how the application interact
+16544	with high DPI displaysUnavailableUnawareUnaware (GDI Scaled)SystemPer-MonitorPer-Monitor (v2) 0Unable to open
+16544	paneMultiple engine GPU chart pane   Physical location:Hardware reserved memory:Dedicated GPU memoryShared GPU 
+16544	processes below to free up memory.      DPI AwarenessEDefault mode for how the application interact
+16544	with high DPI displaysUnavailableUnawareUnaware (GDI Scaled)SystemPer-MonitorPer-Monitor (v2) 0Unable to open
+16544	°C(%d °C)             䅐        1.0 : Compute	Engine %u      3DVideo DecodeVideo EncodeCopyVid
+16544	path [%ls].GError parsing command line: argument already defined: [%ls] (index %d).?Error parsing command line:
+16544	memory dump (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if sy
+16544	0x%X.dFailed to create an ACL for live kernel memory dump (error 0x%X). Please check file access settings.AFailed 
+16544	live kernel memory dumps. Please run as Administrator.vToo little time has passed since the last live kernel memory 
+16544	system memory availability.:The live kernel memory dump failed with error code = 0x%X.3Live kernel memory dump 
+16544	path [%ls].GError parsing command line: argument already defined: [%ls] (index %d).?Error parsing command line:
+16544	memory dump (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if sy
+16544	procedure timed out. Unknown wait failure 0x%X.?Failed to create thread for collecting memory dump. Error 0x%X.6
+16544	with error 0x%X.=Live kernel memory dump file creation failed with error 0x%X.QFailed to set the sec
+16544	availability.:The live kernel memory dump failed with error code = 0x%X.3Live kernel memory dump was collected successful
+16544	Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, excludi
+16544	some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to live memory 
+16544	argument already defined: [%ls] (index %d).?Error parsing 
+16544	dump. (This is incompatible with user and hyper-v arguments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugchec
+16544	memory dump (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if sy
+16544	and improving the security of your PC	IsolationJIsolation technology protecting apps and improving the security of 
+16544	instances. 
+16544	shared system memory in use for NPU (across all NPUs) by the process        Transient processes-CPU u
+16544	enginesMost utilized NPU engineLTotal amount of NPU dedicated memory in use (across 
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s GHz         䅐             Speed:S
+16545	)%1!s!/%2!s! GB Form factor:Hardware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:H
+16545	s!/%2!s! TB%s MB%s GB%s TB%s PB%s%s%s%sI
+16545	Signal strength: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read 
+16545	%4!s!
+Disk %5!d!%6!s!
+Network %7!d!%8!s! CPU %1!d!%2!s!
+Memory %3!d!%4!s!          䅐        %There a
+16549	s?ÌIf an open program is associa
+16549	s?ßIf open programs or processes
+16549	I64d%% network utilization
+16549	2!s! MB)
+Compressed memory stores an es
+16549	1!d!%2!s! (%3!d!%4!s!)
+16549	2!s!)Type: 	Capacity:
+Formatted:System
+16549	1!s! %2!s! 
+16549	%    䅐NameCPU timeNetworkNotificationsMetered networkNon-metered network	DownloadsUploads                   
+16549	2              䅐E&nableDis&abl
+16549	1!d!%2!s!
+Memory %3!d!%4!s!     
+16549	1!d!%2!s!
+Memory %3!d!%4!s!
+Disk
+16549	5!d!%6!s!
+Network %7!d!%8!s! CPU
+16549	1!d!%2!s!
+Memory %3!d!%4!s!     
+16549	u MT/s
+16549	1 (%2) 
+16549	1 (%2) 
+16552	audit mode)Enabled    䅐Return 
+16552	32 bit or 64 bit) on which the p
+16552	Compressed)䅐R: W: Disk %1!d! 
+16552	%.0f%%)
+16552	descending)䅐NoneAppsBackgroun
+16552	across all NPUs) by the processT
+16553	Commit size
+Paged poolNP poolPage faultsPF DeltaBase priorityHandlesThreadsUser objectsGDI objects	I/O read
+16553	: Average number of bytes per second received in the last minutePTotal (B/sec): Average number of b
+16553	: Average number of bytes per second received in the last minutePTotal (B/sec): Average number of b
+16553	 by the processOverall GPU chart paneMultiple engine GPU chart pane   Physical location:Hardware reserved memor
+16553	 by the processTTotal amount of shared system memory in use for NPU (across all NPUs) by the process        Transi
+16557	
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16558	..
+16558	0f%%HDDSSDPersistent Memory	Remova
+16558	zToo little time has passed since the last live memory dump request. Please wait at least two seconds for the next
+16558	zToo little time has passed since the last live memory dump request. Please wait at least two seconds for the next
+16558	dCancellation thread failed to wait until memory dump procedure timed out. Unknown wait failure 0x%X.?Failed to cre
+16558	#Collecting live kernel memory dump.2Live kernel memory dump was written to path [%ls].GError parsing command line: argum
+16558	"Disable rejuvenated Xaml-based UX.Display this help message.6Collect a live memory dump and termina
+16559	O other bytes䅐Image path nameOperating system contextPlatformStatusE
+16559	O priorityJob object IDPackage nameEnterprise contextPower throttling
+16559	%2!s! GB Form factor:Hardware r
+16560	0 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s
+16560	 MB/s1 GB/s10 GB/s100 GB/s450 KB/s800 KB/s
+16560	0 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbp
+16560	 Gbps450 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbp
+16560	0 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s
+16560	 MB/s1 GB/s10 GB/s100 GB/s450 KB/s800 KB/s
+16560	 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 
+16560	 Mbps2 Gbps10 Gbps 100 KB/s500 KB/s1 MB/s1
+16560	 GB/s450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s
+16560	0 MB/s300 MB/s2 GB/s10 GB/s     䅐           bp
+16560	 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 
+16560	 Mbps2 Gbps10 Gbps 100 KB/s500 KB/s1 MB/s1
+16560	 GB/s450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s
+16560	0 MB/s300 MB/s2 GB/s10 GB/s     䅐           bp
+16560	 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 
+16560	 Mbps2 Gbps10 Gbps 100 KB/s500 KB/s1 MB/s1
+16560	 GB/s450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s
+16560	0 MB/s300 MB/s2 GB/s10 GB/s     䅐           bp
+16560	0 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s
+16560	 MB/s1 GB/s10 GB/s100 GB/s450 KB/s800 KB/s
+16560	0 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbp
+16560	 Gbps450 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbp
+16560	 GB/s450 KB/s800 KB/s7 MB/s60 MB/s125 MB/s
+16560	0 MB/s300 MB/s2 GB/s10 GB/s     䅐           bp
+16560	 seconds
+30 secondsModified   CPU Disk    In UseS
+16560	 seconds
+30 secondsModified   CPU Disk    In UseS
+16560	 seconds
+30 secondsModified   CPU Disk    In UseS
+16560	 seconds
+30 secondsModified   CPU Disk    In UseS
+16560	
+16560	 seconds
+30 secondsModified   CPU Disk    In UseS
+16560	0%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSSDPe
+16560	0%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSSDPe
+16560	0%0
+GPU MemoryDedicated GPU memory usageShared
+16560	x%X.HCouldn't acquire debug priv
+16560	x%X.ZTimeout expired for live ke
+16561	 B/sec
+16561	0 Gbps
+16561	 B/sec
+16561	0 Gbps
+16561	00 Kbps 
+16561	0 GB/s
+16561	 cache:	L2 cache:	L3 cache: EnabledDisabledNot capableCores:Virtual pro
+16561	!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open
+16561	 %2              䅐E&nableDis&able  
+16562	 Mbps50 Mbps200 Mbps300 Mbps2 Gbps10 Gbps 100
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	!s!, %3!hu! MHzSlot %1!u!: empty%1!
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16562	AppApps%1 %2%1 %2 %3%1 %2 %3 %4 
+16563	2 bit
+16563	0 seconds
+16563	D
+16564	 bit32 bit     YesNo    DisabledEnabled   Disabl
+16564	d KB/sec disk I/O%I64d MB/sec disk I/O%I64d GB/sec d
+16564	!s!)Open Resource Monitor iconOpen 
+16565	0 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps3
+16565	0 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps3
+16565	G 
+16565	0 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps3
+16566	4d%% Highest active time%I64d MB in use%I64d MB available%d MB        
+16566	!s!
+Network %7!d!%8!s! CPU %1!d!%2!s!
+16566	!s!
+Network %7!d!%8!s! CPU %1!d!%2!s!
+16567	.7 Mbps
+16568	6x64ARMARM64ARM64 (x86 compatible)ARM64 (x64 compatible)         ArmArm64Arm64 (x86 compatible)Arm64 (x64 compa
+16570	 DCOM Server Process LauncherService Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service 
+16570	 DCOM Server Process LauncherService Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service 
+16570	 DCOM Server Process LauncherService Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service 
+16570	 DCOM Server Process LauncherService Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service 
+16570	 DCOM Server Process LauncherService Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)Service 
+16570	
+Formatted:System disk:
+Page file:
+Read speedWrite speedAverage response timeDisk transfer rateActive time100%Disk
+16570	Slots used:%1!u! of %2!u!䅐	AvailableCached	CommittedIn use
+Paged pool Non-paged pool Memory us
+16570	
+Page file:
+Read speedWrite speedAverage response timeDisk transfer rateActive time100%Disk %d  %s m
+16571	Platform (32 bit or 64 bit) on which the process is runningProcess execution status8Specifies whether 
+16573	 0x%X.3Live kernel memory dump w
+16574	If you sig
+16574	If you sig
+16575	×If open programs are associated with the selected processes, they will close and you will lose any unsaved data. I
+16577	ll modules$
+16577	ll modules$
+16577	mount of physical memory currently in use by the process5
+16577	vailable (%1!s! MB)
+Amount of memory (including Standby and Free memory) that is immediately available for use by processes, drivers, or the operating systemË
+16577	vailable
+16577	verage response time
+16577	rm
+16577	ppContainer 
+16578	/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I
+16578	elow normal
+16578	5G Bluetooth PANEthernet䅐DetailsServicesPerformance	ProcessesStartupU
+16578	luetooth PAN
+16578	/s125 MB/s200 MB/s300 MB/s2 GB/s10 GB/s     䅐           bpsKbpsMbpsG
+16578	/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I
+16578	/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s500 MB/s1 GB/s10 GB/s100 GB
+16578	/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I
+16578	/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I
+16578	 of data, saving the system %4!s! MB of memory              OtherUnknownRe
+16578	)
+Memory that is not currently in use, and that will be repurposed first whe
+16578	 of memory              OtherUnknownReserved	Not Found            䅐Logica
+16578	 Form factor:Hardware reserved:Maximum memory: (%.0f%%)Slot %1!u!:
+16578	ytes received throughput
+16579	ommit size
+
+16579	hanging the priority of certain processes could cause system instability.
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	hart ViewDisconnected network i
+16579	PU
+16579	ouldn't get current process token. OpenProcessToken returns HRESULT 0x%X.L
+16579	L for live kernel memory dump (error 0x%X). Please check file acc
+16579	ontrol returned STATUS_CANCELLED.UThe live kernel memory dump collection was aborted due to system memo
+16579	PU utility(
+16580	I objects	I/O reads
+I/O writes	I/O otherI/O read bytesI/O write bytes
+16580	isk %s (%s) queue length 
+16580	etails
+16580	isk %s (%s) queue length 
+16580	isk %s (%s) queue length 
+16580	isk %s (%s) queue length 
+16580	isk %s (%s) queue length 
+16580	isk Icon
+16580	isk Icon
+16580	isk Icon
+16580	isk Icon
+16580	ie 
+16580	isk Icon
+16580	isk Icon
+16580	isk Icon
+16580	o you want to continue?
+16580	ump process
+16580	edicated GPU memory usage
+16580	eveloper Tools Server 
+16580	PI AwarenessE
+16581	1xRTT1xEVDO1xEVDO RevA1xEVDV3xRTT1xEVDO RevBUMB5G Bluetooth PANEthernet䅐D
+16581	fficiency mode 
+16581	dge ManagerBrowser ExtensionsM
+16581	&nable
+16581	nd task&Restart&Switch user	Si&gn ou
+16581	dge ManagerBrowser ExtensionsM
+16582	ile
+16582	S master file table) (NTFS free space map)%s *32%1%2        䅐          
+Process I
+16582	ile: Name of the file in use by the processV
+16582	ewer details
+16582	older
+16583	CPU: Current percent of CPU consumption by services within this process #Logical drive: Logical drive letterfTot
+16583	PU Icon 
+16583	B%s TB%s PB%s%s%s%sIn use
+16583	B %s%1.0f MB %s%1.0f GB %s%u 
+16583	PU Icon 
+16583	PU %d (Link %d)
+16583	PU
+
+16583	PU Temperature
+16584	ost Process ID identifies the process which hosts this work unit. The host process could have terminated, so this value may no longer be valid. 
+16584	ost: Local Service (Network Rest
+16584	ost: Local Service (Network Rest
+16584	ost: Local Service (Network Rest
+16584	ost: Local Service (Network Rest
+16584	ost: Local Service (Network Rest
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	ost logical processors:
+16584	z% Utilization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %
+16584	z%s KB䅐        %1!s!/%2!s! MB%1!s! (%2!s!)%1!s!/%2!s! GB Form factor:Ha
+16584	ighest utilization across all GPU engines䅐
+16585	f an open program is associated with this process, it will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+16585	mage path name
+16585	f an open program is associated with this process, it will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+16585	f an open program is associated with this process, it will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+16585	 objects used by the processKNumber of read I/O operations generated
+16585	OS and some drivers for other peripheralsIn use (%1!s! MB)
+Memor
+16585	mpact hasn't been measured yet. Restart your PC to measure startup impact.*
+16585	DiSCSISASSATASDMMCVirtualSpacesNVMe䅐SCMUFS             
+16585	solationJ
+16586	ob object ID
+16586	ob object ID
+16587	B/sec	10 KB/sec
+100 KB/sec1 MB/
+16587	B/s
+16587	B/sec	10 KB/sec
+100 KB/sec1 MB/
+16587	B/s
+16587	B/s
+16587	B/s
+16588	ogical disk
+16588	ogical non-volatile device 
+16588	aunch Task Manager from Startup page.$
+16589	bps50 Mbps200 Mbps300 Mbps2 
+16589	emory usage in percentage
+16589	ost utilized GPU engineU
+16589	ost utilized GPU engineU
+16590	o 
+16590	o 
+16590	umber of read I/O operations generated by the process since it was startedL
+16590	ame
+16590	ame
+16590	ame
+16590	ame
+16590	ame
+16590	ame
+16590	ame
+16590	UMA node %d
+16590	ame
+16590	ame
+16590	onunicasts per interval
+16590	onunicasts
+16590	ame
+16590	etwork
+16590	ame
+16590	one
+16590	PU
+
+16590	PU
+
+16591	 priority: Priority of I/O transfers6Response time (ms): Disk response ti
+16591	 transfers6Response time (ms): Disk response ti
+16591	ther
+16591	ther
+16591	ther
+16592	ackage name
+16592	rotectionExtended Control Flow 
+16592	age file)%s (%s) (NTFS volume log) (N
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U  MemoryGPU                        Tab controlCharts䅐TablesP
+16592	U activityASend and receive activity on this Bluetooth personal area ne
+16592	B%s%s%s%sIn use (Compressed
+16592	U chart paneLogical CPU chart paneNuma node CPU chart paneAvaila
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	ersistent Memory	
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U activityASend and receive activity on this Bluetooth personal area ne
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U %1!u!CPU %2!u! (Node %1!d!)<All Processors>Group %1!u!        
+16592	U timeNetworkNotificationsMetered networkNon-metered network	Do
+16592	U memory usageDedicated GPU memory usageShared GPU memory usage%.0f%
+16592	U engines䅐Most utilized GPU engineUTotal amount of GPU dedicated graph
+16592	lease try again in a few seconds
+16592	ress Enter to change sorting. 
+16592	U enginesMost utilized NPU engineLTotal amount of NPU dedicated memory in use
+16594	eturn address signing 
+16594	emote Registry#Service Host: Rem
+16594	: 
+16594	esource usage text 
+16595	ystem Idle Process(
+16595	DPAHSUPAHSPALTE1xRTT1xEVDO1xEVDO RevA1xEVDV3xRTT1xEVDO RevBUMB
+16595	elect the columns that will appear in the table. 
+16595	vcService Host:                      pHardware reserved (%1!s! MB)
+Memory that is reserved for us
+16595	ervice Host: Network Service0
+16595	ervice Host: File Server Resource Manager
+16595	end and receive activity on this Bluetooth personal area network 
+16595	ervices              
+Switch &to
+16595	ystem4
+16595	hared memory usage
+16595	ummary view 
+16595	CSI
+16595	CM
+16595	              %1 (%2)               䅐CPU utility(Total processor uti
+16595	ervice Host: Windows App Management 
+16596	otal (B/sec): Average number of bytes per second read from and written to the file in the last minute6
+16596	ables
+16596	hroughput
+16596	US \After several attempts, the live memory dump could not be com
+16596	he necessary debug privilege could not be acquired. Ensure that you are running Task Manager as an administrator and try again.@
+16596	emperature%d °C(%d °C)        
+16596	his option is managed by your organization. 
+16596	emperature 
+16596	emperature 
+16596	oo little time has passed since the last live kernel memory dump request. Please wait and try again in a few seconds.O
+16596	APIATA1394SSAFibre ChannelUSBRAIDiSCSISASSATASDMMCVir
+16596	ransient processes-
+16597	ser objects
+16597	 usage%I64d%% Used physical memory%I64d Hard faults/sec%I64d%% Maximum freque
+16597	nknown
+16597	MTS
+16597	 usage%I64d%% Used physical memory%I64d Hard faults/sec%I64d%% Maximum freque
+16597	 usage%I64d%% Used physical memory%I64d Hard faults/sec%I64d%% Maximum freque
+16597	 usage%I64d%% Used physical memory%I64d Hard faults/sec%I64d%% Maximum freque
+16597	p time	
+16597	p time	
+16597	p time	
+16597	p time	
+16597	p time	
+16597	p time	
+16597	 Icon                    Adapter name:Service provider:Connection type:IPv4 
+16597	nhandled error occurred while connecting.
+
+#%u %s"
+16597	nhandled error occurred while connecting.
+
+#%u %s"
+16597	nable to select columns 
+16597	 engineGPU
+GPU engineGPU dedicated 
+GPU system*Highest utilization across all 
+16597	 activityTotal memoryMediaMediaMedia %dMedia Accelerator activity         䅐
+16597	SB
+16597	 engine*Highest utilization across all NPU engines             䅐NPU
+NPU engine
+16597	 engineDedicated NPU memoryShared NPU memory*Highest utilization across all NP
+16597	 usage attributed to short-lived processes              $Service Host: Windows A
+16598	irtual machine:	
+16598	iewDisconnected network icon䅐G
+16599	rite (B/sec)
+16599	P processes)VAmount of physical memory in use by the process that cannot be used by o
+16599	rite (B/sec): Average number of bytes per second written to the file in the last minute&
+16599	LAN 
+16601	ou need administrator privileges to complete this task. Select 'Run as administrator' from the Navigation pane and try again. 
+16609	sk Manager has been disabled by your administrator.              䅐FileRead (B/sec)
+16609	ndVendor specific      UnknownNoneGPRSEDGE䅐UMTSHSDPAHSUPAHSPALTE1xRTT1xEVDO1xEVDO Rev
+16609	 system process, it might result
+16609	lHighRealtimeN/A  
+Windows XPWindows Vista	Windows 7	Windows 8Windows 8.1 %1 (%2)16 bit32 bit64 bit
+16609	use Windows to become unusable or shut down, causing you to lose any data hasn't been saved. Are yo
+16609	ndVendor specific      UnknownNoneGPRSEDGE䅐UMTSHSDPAHSUPAHSPALTE1xRTT1xEVDO1xEVDO Rev
+16609	 system process, it might result
+16609	bledEnabled (audit mode)Enabled    䅐Return address signing                             System interrupts7Deferr
+16609	. If you end a system process, it might result in system instability. Are you sure you want to continue?End process
+16609	nt to end the selected process trees?èIf open programs or processes are associated with the selected process trees, the
+16609	nt to end the selected process trees?èIf open programs or processes are associated with the selected process trees, the
+16609	re associated with this process 
+16609	ved data. If you end a system process, it might result in system instability. Are you sure you want to continue?Se
+16609	 system process, it might result
+16609	rdware-enforced Stack Protection (a security feature using shadow stacks
+16609	s started;Total number of bytes read by the process in I/O operations>Total number of bytes written by the process in I
+16609	nd uploads2Network activity over
+16609	 metered network connection%Tota
+16609	rdware-enforced Stack Protection (a security feature using shadow stacks
+16609	rdware-enforced Stack Protection (a security feature using shadow stacks
+16609	rdware-enforced Stack Protection (a security feature using shadow stacks
+16609	rdRow of chips	Not Found          䅐Die               䅐           
+16609	l Machine Heartbeat1Service Host: IIS Application Host Helper Service*Service Host: Internet Information ServiceServ
+16609	ndbyFreeMemory   NetworkGPU      Services     CPU  MemoryGPU                        Tab controlCharts䅐Tab
+16609	ctivity on this disk@Percentage 
+16609	ndbyFreeMemory   NetworkGPU      Services     CPU  MemoryGPU                        Tab controlCharts䅐Tab
+16609	ctivity on this disk@Percentage 
+16609	ndbyFreeMemory   NetworkGPU      Services     CPU  MemoryGPU                        Tab controlCharts䅐Tab
+16609	ctivity on this disk@Percentage 
+16609	ndbyFreeMemory   NetworkGPU      Services     CPU  MemoryGPU                        Tab controlCharts䅐Tab
+16609	ctivity on this disk@Percentage 
+16609	ndbyFreeMemory   NetworkGPU      Services     CPU  MemoryGPU                        Tab controlCharts䅐Tab
+16609	ctivity on this disk@Percentage 
+16609	tion:䅐Virtual machine:	L1 cache:	L2 cache:	L3 cache: EnabledDisabledNot capableCores:Virtual processors:Hyper-V sup
+16609	sts sentUnicasts receivedUnicastsUnicasts sent per intervalUnicasts received per intervalUnica
+16609	bleCores:Virtual processors:Hyper-V support:   UtilizationSpeedUp time	ProcessesThreadsHandles% Utiliza
+16609	ctivity on this disk@Percentage 
+16609	ctivity on this disk@Percentage 
+16609	ctivity on this disk@Percentage 
+16609	sts sentUnicasts receivedUnicastsUnicasts sent per intervalUnicasts received per intervalUnica
+16609	ctivity on this networkGPU acti
+16609	re no running apps%The operation
+16609	t least two seconds for the next
+16609	ttempt.Memory dump processLive
+16609	ttempt.Memory dump processLive
+16609	ttempt.Memory dump processLive
+16609	ccess or set process affinity䅐D
+16609	lization.Do you want to change virtualization for '%s'?Changing virtualization for a process may lead to undesired r
+16609	st BIOS time: 
+%1 seconds          䅐 	&End task&Restart&Switch user	Si&gn 
+16609	tion
+%1!d!%2!s!% UtilizationGPU %dGPU %d (Link %d)100%0
+GPU MemoryDedicated GPU memory usageShared GPU memory usage
+16609	MediaMedia %dMedia Accelerator activity         䅐Temperature               䅐 x86x64ARMARM64ARM64
+16609	ge trend.CPU, Disk, and GPU impact on power consumption8CPU, Disk, and GPU impact on power consumption over timeGP
+16609	MediaMedia %dMedia Accelerator activity         䅐Temperature               䅐 x86x64ARMARM64ARM64
+16609	ilure 0x%X.?Failed to create thread for collecting memory dump. Error 0x%X.6Thread for collecting memo
+16609	st live kernel memory dump request. Please wait and try again in a few seconds.ONo remaining attempts to ret
+16609	sk Manager from Startup page.$Run Task Manager in low-memory mode."Disable rejuvenat
+16609	lSpacesNVMe䅐SCMUFS              %1 (%2)               䅐CPU utility(Total processor utility across all cores    
+16609	ge attributed to short-lived processes              $Service Host: Windows App Management               .盳 t颼  1
+16610	it32 bit64 bit32 bit     Yes
+16610	it32 bit64 bit32 bit     Yes
+16610	ps10 Gbps 100 KB/s500 KB/s1 MB/s10 MB/s100 MB/s250 MB/s500 MB/s
+16610	y the kernel or drivers on behal
+16610	y the process since it was start
+16610	led or disabled for the process*Job object in which the process is running,File: Name of the file
+16610	y the BIOS and some drivers for 
+16611	kage nameEnterprise contextPower throttlingArchitecture"Hardware-enforced Stack ProtectionExt
+16611	kage nameEnterprise contextPower throttlingArchitecture"Hardware-enforced Stack ProtectionExt
+16611	ed Stack ProtectionExtended Control Flow Guard               
+ContinuingPausedPausingRunningStartingStopped
+16611	y䅐%I64d%% network utilization%I64d%% Highest active time%I64d MB in use%I64d MB available%d MB           
+16611	t columns䅐1Select the columns that will appear in the table.          +Do you want to end the system 
+16611	al memory%I64d Hard faults/sec%I64d%% Maximum frequency䅐%I64d%% network utilization%I64d%% Highest ac
+16611	iated with this process, it will close and you will lose any unsaved data. If you end a system process, it migh
+16611	t columns䅐1Select the columns that will appear in the table.          +Do you want to end the system 
+16611	al memory%I64d Hard faults/sec%I64d%% Maximum frequency䅐%I64d%% network utilization%I64d%% Highest ac
+16611	t columns䅐1Select the columns that will appear in the table.          +Do you want to end the system 
+16611	al memory%I64d Hard faults/sec%I64d%% Maximum frequency䅐%I64d%% network utilization%I64d%% Highest ac
+16611	y䅐%I64d%% network utilization%I64d%% Highest active time%I64d MB in use%I64d MB available%d MB           
+16611	y䅐%I64d%% network utilization%I64d%% Highest active time%I64d MB in use%I64d MB available%d MB           
+16611	al memory%I64d Hard faults/sec%I64d%% Maximum frequency䅐%I64d%% network utilization%I64d%% Highest ac
+16611	y䅐%I64d%% network utilization%I64d%% Highest active time%I64d MB in use%I64d MB available%d MB           
+16611	e ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvcService Host:      
+16611	e groupGCPU: Current percent of CPU consumption by services within this process #Logical drive: Logical d
+16611	e ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvcService Host:      
+16611	ess execution status8Specifies whether the process is running elevated or not dSpecifies whether Data Execution
+16611	e ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvcService Host:      
+16611	e ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvcService Host:      
+16611	e ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvcService Host:      
+16611	ompressed (%2!s! MB)
+Compressed
+16611	hart           0  00    䅐00
+16611	he: EnabledDisabledNot capableCores:Virtual processors:Hyper-V support:   UtilizationSpee
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	he: EnabledDisabledNot capableCores:Virtual processors:Hyper-V support:   UtilizationSpee
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	he: EnabledDisabledNot capableCores:Virtual processors:Hyper-V support:   UtilizationSpee
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	hart           0  00    䅐00
+16611	he: EnabledDisabledNot capableCores:Virtual processors:Hyper-V support:   UtilizationSpee
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	he: EnabledDisabledNot capableCores:Virtual processors:Hyper-V support:   UtilizationSpee
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	ess details              䅐          Base speed:Sockets:Logical processors: Host logical processors:Virtual
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	al CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Ico
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	hed	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1
+16611	asts sent per intervalUnicasts received per intervalUnicasts per intervalNonunicasts sentNonunicasts 
+16611	eived䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per intervalNonunicasts per in
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	y mode               䅐  UserProcessWindowServiceStartup itemStartup process        䅐     	Tray icon%1: 
+16611	ould not be completed.,The opera
+16611	ould not be acquired. Ensure tha
+16611	ument, or Internet resource, and Windows will open it for you.2User %s (SessionId=%d) could not be disconnected
+16611	ument, or Internet resource, and Windows will open it for you.2User %s (SessionId=%d) could not be disconnected
+16611	t.*Highest utilization across all GPU enginesLThis UWP process group is suspending processes to i
+16611	rosoft Web Platform ControlUser Interface ServiceChakra JIT CompilerService Worker HostBackground Tab
+16611	t.*Highest utilization across all GPU enginesLThis UWP process group is suspending processes to i
+16611	rosoft Web Platform ControlUser Interface ServiceChakra JIT CompilerService Worker HostBackground Tab
+16611	tion was aborted due to system memory availability.:The live kernel memory dump failed with error cod
+16611	Live kernel memory dump cancel event was signa
+16612	ed Control Flow Guard               
+ContinuingPausedPausingRunningStartingStoppedStopping 䅐  Not respo
+16612	ingRunning	SuspendedEfficiency mode          䅐          
+BackgroundLowNormalHighCriticalLowBelow norma
+16612	ed Control Flow Guard               
+ContinuingPausedPausingRunningStartingStoppedStopping 䅐  Not respo
+16612	ingRunning	SuspendedEfficiency mode          䅐          
+BackgroundLowNormalHighCriticalLowBelow norma
+16612	s
+I/O writes	I/O otherI/O read bytesI/O write bytesI/O other bytes䅐Image path nameOperating 
+16612	dress signing                             System interrupts7Deferred procedure calls and interru
+16612	 %s?ÌIf an open program is associated with this process, it will close and you will lose any unsaved data. If 
+16612	 the selected processes?×If open programs are associated with the selected processes, they will close and you 
+16612	 B/sec disk I/O%I64d KB/sec disk I/O%I64d MB/sec d
+16612	Compatible modules onlyAll modules$Compatible modules only (audit mode)All modules (audit mode) D
+16612	 B/sec disk I/O%I64d KB/sec disk I/O%I64d MB/sec d
+16612	 B/sec disk I/O%I64d KB/sec disk I/O%I64d MB/sec d
+16612	 B/sec disk I/O%I64d KB/sec disk I/O%I64d MB/sec d
+16612	ow manager objects (windows, menus, cursors, keyboard layouts, monitors, etc.) used by the process)Number of G
+16612	LNumber of write I/O operations generated by the process since it was started{Number of non-read/non-
+16612	 activity by the application,Architecture on which the process is runningsSpecifies the status of
+16612	 transferred in the last minuteService nameService process IDDescription of the serviceService statusServ
+16612	ware-enforced Stack Protection (a security feature using shadow stacks) for the process]Specifies the status of Ex
+16612	 activity by the application,Architecture on which the process is runningsSpecifies the status of
+16612	 activity by the application,Architecture on which the process is runningsSpecifies the status of
+16612	 activity by the application,Architecture on which the process is runningsSpecifies the status of
+16612	ow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%Service Host:
+16612	 (%2!s! MB)
+Memory compression is not enabledlModified (%1!s! MB)
+Memory whose contents must be wri
+16612	e that is not actively in useFree (%1!s! MB)
+Memory that is not currently in use, and that will be repurposed
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (%2!s!)Type: 	Capacity:
+Format
+16612	:System disk:
+Page file:
+Read speedWrite speedAverage response timeDisk transfer rateActive time
+16612	S: R:      䅐          CPU activityPrivate working set$Read and write activity on this disk@Percen
+16612	  %s ms%1!s! %2!s! %.0f%%HDDSSD
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (Node %2!d!)NUMA node %d%s - 
+16612	)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite sp
+16612	Average response timeDisk transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSS
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	isk:
+Page file:
+Read speedWrite
+16612	dress:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal str
+16612	! (%2!s!)Type: 	Capacity:
+Format
+16612	:System disk:
+Page file:
+Read speedWrite speedAverage response timeDisk transfer rateActive time
+16612	S: R:      䅐          CPU activityPrivate working set$Read and write activity on this disk@Percen
+16612	dress:IPv6 address:	DNS name:Domain name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2
+16612	 write activity on this disk@Percentage of time the disk is processing read or write requests)Send and receive
+16612	 error occurred while connecting.
+
+#%u %s"Enter the selected user's password{You need administrator p
+16612	e will lower process priority and improve power efficiency but may cause instability for certain processes. Do 
+16612	ump cancel event was signalled. 
+16612	 Xaml-based UX.Display this help message.6Collect a live memory dump and terminate Task Manager.(Add
+16613	ad (B/sec)Write (B/sec)NamePID	User name
+Session IDCPUCPU timeCycleWorking 
+16613	t (memory)Peak working set (memory)Working set delta (memory)#Memory (active private working set)Memory (private
+16613	c)Send (B/sec)Receive (B/sec)Total (B/sec)Response time (ms)NameGroup䅐Logical diskI/O priorityJob object I
+16613	 you want to continue?End process tree*Do you want to end the selected processes?×If open programs are associated
+16613	 to set priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Effi
+16613	rating system contextPlatformStatusElevatedUAC virtualizationDescriptionData execution preventionDisk tot
+16613	d 	ConnectedDisconnected
+ConnectingUnknownNon operationalUnknownAnyInfrared basebandVendor specifi
+16613	ctedDisconnected
+ConnectingUnknownNon operationalUnknownAnyInfrared basebandVendor specific      Unkno
+16613	t䅐DetailsServicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want to e
+16613	c	10 MB/sec
+100 MB/sec1 GB/sec1 bps10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kbps   100 Kbps
+16613	 you want to continue?End process tree*Do you want to end the selected processes?×If open programs are associated
+16613	 to set priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Effi
+16613	d processes?×If open programs are associated with the selected processes, they will close and you will lose any unsa
+16613	d data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do you 
+16613	 priorityUnable to change priorityIUnable to set priority to Realtime. The priority was set to High in
+16613	ad.MChanging the priority will turn off Efficiency mode. Do you want to continue?               MWhen attempting to 
+16613	d 	ConnectedDisconnected
+ConnectingUnknownNon operationalUnknownAnyInfrared basebandVendor specifi
+16613	nd %s?ÌIf an open program is ass
+16613	d processes?×If open programs are associated with the selected processes, they will close and you will lose any unsa
+16613	d data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do you 
+16613	 priorityUnable to change priorityIUnable to set priority to Realtime. The priority was set to High in
+16613	ad.MChanging the priority will turn off Efficiency mode. Do you want to continue?               MWhen attempting to 
+16613	d with this process, it will close and you will lose any unsaved data. If you end a system process, it might result 
+16613	n programs or processes are associated with the selected process trees, they will close and you will lose any un
+16613	 priorityUnable to change priorityIUnable to set priority to Realtime. The priority was set to High in
+16613	ad.MChanging the priority will turn off Efficiency mode. Do you want to continue?               MWhen attempting to 
+16613	 you want to continue?End process tree*Do you want to end the selected processes?×If open programs are associated
+16613	 to set priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Effi
+16613	c	10 MB/sec
+100 MB/sec1 GB/sec1 bps10 Kbps1 Mbps10 Mbps100 Mbps1 Gbps10 Gbps100 Gbps䅐100 Kbps   100 Kbps
+16613	 it started<Current percent of CPU cycle time consumption by the process9Amount of physical memory 
+16613	r processesWAmount of physical memory in use by the process that can be shared with other processesIAmou
+16613	 faults in the process since the last updateMRanking that determines the order in which threads of a pr
+16613	ss are scheduled-Current number of handles open by the processNumber of active threadspNumber of w
+16613	, control functions)Path of the executable file1Full command line specified to create the process8
+16613	rating system context in which the process is running;Platform (16 bit or 32 bit) on which the process is runnin
+16613	 process is running elevated or not dSpecifies whether Data Execution Prevention (a security feature) en
+16613	s per second transferred in the last minuteService nameService process IDDescription of the serviceService statu
+16613	tterfTotal (B/sec): Average number of bytes per second read from and written to the file in the last minute6
+16613	nded Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Pr
+16613	s)VAmount of physical memory in use by the process that cannot be used by other processesWAmount of physical memory
+16613	 in the last minute&IO priority: Priority of I/O transfers6Response time (ms): Disk response time in millise
+16613	nded Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Pr
+16613	rvice nameService process IDDescription of the serviceService statusService gro
+16613	nded Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Pr
+16613	ad (B/sec): Average number of bytes per second read from the file in the last minu
+16613	XWrite (B/sec): Average number of bytes per second written to the file in the last minute&IO priority: Priority of I
+16613	s per second transferred in the last minuteService nameService process IDDescription of the serviceService statu
+16613	tterfTotal (B/sec): Average number of bytes per second read from and written to the file in the last minute6
+16613	nded Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Pr
+16613	nded Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Pr
+16613	n to disk before it can be used for another purposeYStandby (%1!s! MB)
+Memory that contains cached data and code th
+16613	mory composition chart           0  00    䅐00%0%0%0%       100%Paus
+16613	 Host: BranchCacheService Host: Remote Registry#Service Host: Remote Procedure CallService Host: 
+16613	 Host: Printer Services䅐*Service Host: File Server Resource ManagerService Host: Group Policy$Serv
+16613	 Host: Unistack Service GroupService Host: UtcSvcService Host:                      pHardware res
+16613	fore it can be used for another purposeYStandby (%1!s! MB)
+Memory that contains cached data and c
+16613	e memory) that is immediately available for use by processes, drivers, or the operating systemËIn use (%1!s! MB)
+
+16613	mory used by processes, drivers, or the operating system
+
+In use compressed
+16613	rvice Host: Group Policy$Service Host: Unistack Service GroupService Host: UtcSvc
+16613	 (%1!s! MB)
+Amount of memory (including Standby and Free memory) that is immediately available for use by p
+16613	sProcess details              䅐          Base speed:Sockets:Logical processors: Host logical processors
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	sProcess details              䅐          Base speed:Sockets:Logical processors: Host logical processors
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	sProcess details              䅐          Base speed:Sockets:Logical processors: Host logical processors
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	sProcess details              䅐          Base speed:Sockets:Logical processors: Host logical processors
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	sProcess details              䅐          Base speed:Sockets:Logical processors: Host logical processors
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	rved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %2!s! ...%1!s!/%2!s! TB%s 
+16613	 Chart ViewDisconnected network icon䅐GPU Icon                    Adapter name:Service provider:
+16613	r intervalNonunicasts per intervalGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct    
+16613	n Resource Monitor iconOpen Services iconCPU %d @ %s GHz         䅐             Speed:Slots used:%1!u! of %2
+16613	
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%1.0f MB %s%1.0f GB %s%u MHz
+16613	 rangeCached rangeSeparator barCPU IconMemory Icon	Disk IconNetwork IconDisconnected network graphDyn
+16613	ssors:Hyper-V support:   UtilizationSpeedUp time	ProcessesThreadsHandles% Utilization over 4
+16613	source Monitor iconOpen Services iconCPU %d @ %s GHz         䅐             Spee
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	d	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory composition%0.1f MB %s%0.1f GB %s%
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	 Chart ViewDisconnected network icon䅐GPU Icon                    Adapter name:Service provider:
+16613	r intervalNonunicasts per intervalGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct    
+16613	SDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLogical CPU cha
+16613	dStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16613	sBytes sent per intervalBytes received per intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUn
+16613	ceiveSend%1!s! %2!s!Signal strength: %1!s! %1!s! %2!s! Not connectedS: R: 
+16613	neric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct 
+16613	ted. Please try again later.zToo little time has passed since the last live memory dump request. Please wait
+16613	dEnabledNot allowed   AppBackground processWindows process䅐               More detailsFewer detailsR
+16613	rviceUnable to restart serviceUnable to set virtualization.Do you want to change virtualization for '%s'?Changin
+16613	ad to undesired results including loss of data. You should do this only for debugging.Change virtualization
+16613	rviceUnable to restart serviceUnable to set virtualization.Do you want to change virtualization for '%s'?Changin
+16613	ad to undesired results including loss of data. You should do this only for debugging.Change virtualization
+16613	mory %3!d!%4!s!          䅐        %There are no startup items to display,Tota
+16613	d with each restartDDisk activity, measured during startup and updated with each restartCCPU activity, measured duri
+16613	s used by the process.                       -Windows system process for memory compression  䅐 Per
+16613	s䅐System4Resource usage since %1!s! for current user account.
+Duration :                 CCPU %1!d!%2!s!
+Memory %3
+16613	 no startup items to display,Total processor utilization across all cores*Physical memory in use by active process
+16613	n measured yet. Restart your PC to measure startup impact.*Highest utilization across all GPU engines
+16613	lete usage history No data available @Resource usage since %1!s! fo
+16613	mory %3!d!%4!s!          䅐        %There are no startup items to display,Tota
+16613	d with each restartDDisk activity, measured during startup and updated with each restartCCPU activity, measured duri
+16613	s used by the process.                       -Windows system process for memory compression  䅐 Per
+16613	source usage since %1!s! for current user account.
+Duration :                 CCPU
+16613	moryPower usagePower usage trend.CPU, Disk, and GPU impact on power consumption8CPU, Disk, and GPU impact o
+16613	edback hub for selected process      䅐        NPUNPUNPU %dDedicated memory usageShared memory usa
+16613	Dedicated memoryShared memoryDedicated memory usageShared memory usageNPU activityTotal memoryMe
+16613	rsonalExempt (UnenlightenedEnlightened
+PermissiveFile copy exempt), N/A 
+16613	moryPower usagePower usage trend.CPU, Disk, and GPU impact on power consumption8CPU, Disk, and GPU impact o
+16613	edback hub for selected process      䅐        NPUNPUNPU %dDedicated memory usageShared memory usa
+16613	Dedicated memoryShared memoryDedicated memory usageShared memory usageNPU activityTotal memoryMe
+16613	 memory dump directory. Status 0x%X.&Failed to allocate Admin SID. Hr 0x%X.dFailed to create an ACL for 
+16613	m is under memory pressure.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v ar
+16613	turns HRESULT 0x%X.LCouldn't lookup SeDebugPrivilege name. LookupPrivilegeValue returns hr 0x%X.HCouldn't acquire 
+16613	bug privilege. AcquireDebugPrivilege returns hr 0x%X.DCouldn't enable debug privilege. AdjustTokenPr
+16613	 thread for collecting memory dump. Error 0x%X.6Thread for collecting memory dump exited. Status 0x%X.1Directory han
+16613	d to set the security descriptor for the memory dump directory. Status 0x%X.&Failed to allocate Admin SID. H
+16613	m is under memory pressure.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v ar
+16613	.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v arguments).WSpecifies the 
+16613	xadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR) 
+16613	d STATUS_CANCELLED.UThe live kernel memory dump collection was aborted due to system memory availability.:The 
+16613	cting live kernel memory dump.2Live kernel memory dump was written to path [%ls].GError parsing command line
+16613	ss Enter to change sorting.               %u MT/sSlot %1!u!: %2!s!, %3!hu! MT/s              䅐Summary view     
+16613	m is under memory pressure.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v ar
+16613	dicated NPU memoryShared NPU memory*Highest utilization across all 
+16614	or instance, control functions) generate
+16614	ied (%1!s! MB)
+Memory whose contents must be written to disk before it can be used for another purposeYS
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	 time the disk is processing read or write requests)Send and receive activity on this networkGPU activityASend
+16614	ault mode for how the application interacts with high DPI displaysUnavailableUnawareUnaware (GDI S
+16614	ailed with error 0x%X.QFailed to
+16615	 set delta (memory)#Memory (active private working set)Memory (private working set)Memory (shared working se
+16615	ed poolNP poolPage faultsPF DeltaBase priorityHandlesThreadsUser objectsGDI objects	I/O r
+16615	ical diskI/O priorityJob object IDPackage nameEnterprise contextPower throttlingArchitecture"Hardware-enf
+16615	roundLowNormalHighCriticalLowBelow normalNormalAbove normalHighRealtimeN/A  
+Windows XPWindows 
+16615	UnknownNon operationalUnknownAnyInfrared basebandVendor specific      UnknownNoneGPRSEDGE䅐UMTSHSDP
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	ical CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Icon	Di
+16615	e of time the disk is processing read or write requests)Send and receive activity on this network
+16615	eMemory composition%0.1f MB %s%0.1f GB %s%1.0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	th: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU activityPrivate working set$Read and write
+16615	ical CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Icon	Di
+16615	e of time the disk is processing read or write requests)Send and receive activity on this network
+16615	e from %1 - %2:Your message to user with SessionId=%d could not be sent. ViewColumn headerTher
+16615	erUnable to change priority(Unable to access or set process affinity䅐Dump processCommand BarIconUn
+16615	 startup and updated with each restartKImpact hasn't been measured yet. Restart your PC to measure startup imp
+16615	 startup and updated with each restartKImpact hasn't been measured yet. Restart your PC to measure startup imp
+16615	hest utilization across all GPU enginesLThis UWP process group is suspending processes to improve system 
+16616	ernet䅐DetailsServicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want to end
+16616	ange priorityUnable to change priorityIUnable to set priority to R
+16616	e process since it was startedLNumber of write I/O operations generated by the process since it was started{Number o
+16616	ich the process is running,File: Name of the file in use by the processVRead (B/sec): Average number of bytes per secon
+16616	Dynamic Resource InformationStatic Resource InformationResource Chart ViewDisconnected network icon䅐GPU Ico
+16616	e memory dump timed out or was manually cancelled by the user.:The memory dump was a
+16616	is UWP process group is suspending processes to improve system performance;This UWP 
+16616	ared GPU memory usage%.0f%%GPU
+GPU engineGPU
+GPU engineGPU dedicated 
+GPU syste
+16616	r 0x%X.DCouldn't enable debug pr
+16616	elp message.6Collect a live memo
+16616	elp message.6Collect a live memo
+16616	read for collecting memory dump exited. Status 0x%X.1Directory handle creation faile
+16616	elp message.6Collect a live memo
+16617	n system instability. Are you su
+16617	nstability. Are you sure you wan
+16617	ency mode. Do you want to continue?               MWhen attempting to execute the command, the foll
+16617	ng system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 KB/sec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 b
+16617	sabledCompatible modules onlyAll modules$Compatible modules only (
+16617	ciency mode          䅐          
+BackgroundLowNormalHighCriticalLowBelow normalNormalAbove nor
+16617	ll lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to 
+16617	n processes could cause system instability.Change priorityUnable to change priorityIUnable to s
+16617	n system instability. Are you su
+16617	nstability. Are you sure you wan
+16617	ency mode. Do you want to continue?               MWhen attempting to execute the command, the foll
+16617	ng system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 KB/sec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 b
+16617	s process, it will close and you will lose any unsaved data. If you end a system process, it might resul
+16617	lity. Are you sure you want to continue?End process tree*Do you want to end the selected processe
+16617	n system instability. Are you su
+16617	nstability. Are you sure you wan
+16617	ency mode. Do you want to continue?               MWhen attempting to execute the command, the foll
+16617	ng system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 KB/sec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 b
+16617	n seconds, used by a process sin
+16617	te I/O operations (for instance, control functions) generated by the process since it was started;Total number of 
+16617	cted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local S
+16617	ng system for the process\Amount of pageable kernel memory allocated by the kernel or drivers on behalf of the proce
+16617	cted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local S
+16617	cted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local S
+16617	cted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local S
+16617	cted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local S
+16617	ndows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Applica
+16617	s immediately available for use 
+16617	rst when processes, drivers, or the operating system need more memory¬Cached (%1!s! MB)
+Amount of mem
+16617	mated %3!s! MB of data, saving the system %4!s! MB of memory              OtherUnknownReserved	Not Found         
+16617	ning cached data and code for rapid access by processes, drivers, and the operating systemAvaila
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	stent Memory	RemovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart pane
+16617	rtualization:䅐Virtual machine:	L1 cache:	L2 cache:	L3 cache: EnabledDisabledNot ca
+16617	on over 4 minutes% Utilization over 30 secondsLogical processors% Utilization over 60 seconds% Utilization%s GH
+16617	nutes% Utilization over 30 secondsLogical processors% Utilization over 60 seconds% Utilization%s GHz% U
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	tion%0.1f MB %s%0.1f GB %s%1.0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/%2!s! MB%1!s! (%2!s!)%1!s!/%2!s!
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	stent Memory	RemovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart pane
+16617	ng read or write requests)Send and receive activity on this networkGPU activityASend and receive activity on this 
+16617	tyASend and receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilization
+Link sp
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	n name: Device name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal strength: %1!s! %1!s! %
+16617	sconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficie
+16617	lsCreate new taskeType the name of a program, folder, document, or Internet resource, and Window
+16617	on is not valid for this process.Unable to terminate process Unable to terminate process treeUnable to attach debu
+16617	ty(Unable to access or set process affinity䅐Dump processCommand BarIconUnable to start serviceUnable to stop 
+16617	strator privileges to complete this task. Select 'Run as administrator' from the Navigation pane and try again
+16617	med out or was manually cancelled by the user.:The memory dump was aborted due to system memory pressure.!Memory dum
+16617	ty(Unable to access or set process affinity䅐Dump processCommand BarIconUnable to start serviceUnable to stop 
+16617	strator privileges to complete this task. Select 'Run as administrator' from the Navigation pane and try again
+16617	med out or was manually cancelled by the user.:The memory dump was aborted due to system memory pressure.!Memory dum
+16617	gn out user9Are you sure you want to disconnect the selected user(s)?Disconnect us
+16617	rtualization.Do you want to change virtualization for '%s'?Changing virtualization for a process may lead to undesire
+16617	ed.!Unable to turn on Efficiency mode Unable to select columns               ~You need administrator privileg
+16617	ve memory dump could not be completed. Please try again later.zToo little time has passed since the last liv
+16617	ency mode to limit resources used by the process.JThis process is in efficiency mode to limit resou
+16617	ency mode to limit resources used by the process.JThis process is in efficiency mode to limit resou
+16617	ceChakra JIT CompilerService Worker HostBackground Tab PoolAdobe Flash PlayerMicrosoft Edge Service Host䅐Develop
+16617	zation.                       $Your device is running low on memoryNWe recommend you close some of the apps an
+16617	zation.                       $Your device is running low on memoryNWe recommend you close some of the apps an
+16617	deo DecodeVideo EncodeCopyVideo ProcessingScene AssemblyLegacy OverlayCrypto    
+16617	ble)            JCouldn't get current process token. OpenProcessToken returns HRESULT 0x%X.LCouldn't lookup SeDebugP
+16617	vilege name. LookupPrivilegeValue returns hr 0x%X.HCouldn't acquire debug privilege. AcquireDebugPrivilege returns
+16617	ve kernel memory dump (error 0x%X). Please check file access settings.AFailed to apply ACL to live kernel me
+16617	ve kernel memory dump cancel event was signalled. NtSystemDebugControl retur
+16617	ve kernel memory dump failed with error code = 0x%X.3Live kernel memory dump was collected successfully.#Col
+16617	ty across all cores              䅐 instances.               䅐	IsolationJIsolation technology protecting app
+16619	nownChipProprietary CardRow of chips	Not Found          䅐Die               䅐           Memory composition
+16619	nownReserved	Not Found            䅐Logical non-volatile device               䅐OtherUnknownChipProprietar
+16619	nownReserved	Not Found            䅐Logical non-volatile device               䅐OtherUnknownChipProprietar
+16619	nownChipProprietary CardRow of chips	Not Found          䅐Die               䅐           Memory composition
+16619	. Select 'Run as administrator' from the Navigation pane and try again.               The necessary debug privileg
+16619	ernel memory dump process       
+16619	ernel memory dump process       
+16619	ernel memory dump process       
+16620	LowBelow normalNormalAbove normalHighRealtimeN/A  
+Windows XPWindows Vista	Windows 7	Wind
+16620	 (B/sec)Total (B/sec)Send (B/sec)Receive (B/sec)Total (B/sec)Response time (ms)NameGroup䅐
+16620	time. The priority was set to High instead.MChanging the priority will turn off Efficiency mode. 
+16620	ast updateMRanking that determin
+16620	 (B/sec): Average number of bytes per second read from and written to the file in the last minute
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	ization (Paused)Open Resource Monitor 
+%1!d!%2!s!CPU %dCPU %1!d! (Node %2!d!)NUMA node %d%s - Parked
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	ot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %2!s! ...%1!s!/%2!s! TB%s MB
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	e to start serviceUnable to stop serviceUnable to restart serviceUnable to set virtualization.D
+16620	oadsUploads                      Sorted (ascending)Sorted (descending)䅐NoneAppsBackground processesWind
+16620	e connecting.
+
+#%u %s"Enter the selected user's password{You need administrator privileges to complete th
+16620	ed)SystemPer-MonitorPer-Monitor (v2) 0Unable to open feedback hub for selected process      䅐 
+16620	e creation failed with error 0x%X.=Live kernel memory dump file creation failed with error 0x%X.QFai
+16620	ed. NtSystemDebugControl returned STATUS_CANCELLED.UThe live kernel memory dump collection was aborted due t
+16620	ege. AcquireDebugPrivilege returns hr 0x%X.DCouldn't enable debug privilege. AdjustTokenPrivileges return
+16620	ection (status 0x%X). Please try again in a few seconds.dCancellation thread failed to wait until memory dum
+16620	 NPU engines             䅐NPU
+NPU engineDedicated NPU memoryShared NPU memory*Highest utilization across 
+16620	l NPU enginesMost utilized NPU engineLTotal amount of NPU dedicated memory in use (across all NP
+16620	ization across all NPU engines             䅐NPU
+NPU engineDedicated NPU memoryShared NPU memory*Highes
+16620	 NPUs) by the processTTotal amount of shared system memory in use for NPU (across all NPUs) by the process  
+16621	ePID	User name
+Session IDCPUCPU timeCycleWorking set (memory)Peak working set (memory)Work
+16621	StatusElevatedUAC virtualizationDescriptionData execution preventionDisk total (B/sec)Total (B/sec)Send (B
+16621	s)NameGroup䅐Logical diskI/O priority
+16621	s)NameGroup䅐Logical diskI/O priority
+16621	patible modules only (audit mode)All modules (audit mode) DisabledEnabled (audit mode)Enabled    䅐Return a
+16621	 process '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to
+16621	patible modules onlyAll modules$Compatible modules only (audit mode)All modules (audit mode) DisabledEnable
+16621	patible modules only (audit mode)All modules (audit mode) DisabledEnabled (audit mode)Enabled    䅐Return a
+16621	 process '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to
+16621	 process '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to
+16621	ount of time spent by the CPU executing instructions;Amount of ne
+16621	ber of active threadspNumber of window manager objects (windows, menus, cursors, keyboard layouts, monitors, etc.) us
+16621	ber of write I/O operations generated by the process since it was started{Number of non-read/non-write I/O operations
+16621	 (16 bit or 32 bit) on which the process is running;Platform (32 bit or 64 bit) on which the process is runningPr
+16621	ount of time spent by the CPU executing instructions;Amount of ne
+16621	ount of time spent by the CPU executing instructions;Amount of ne
+16621	ount of time spent by the CPU executing instructions;Amount of ne
+16621	emory stores an estimated %3!s! 
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	position%0.1f MB %s%0.1f GB %s%1.0f MB %s%1.0f GB %s%u MHz%s KB䅐        %1!s!/%2!s! MB%1!s! (%2!s!)%1!
+16621	ic Resource InformationStatic Resource InformationResource Chart ViewDisconnected network icon
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	ovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall CPU chart paneLo
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	eCommand lineCPUMemoryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at sta
+16621	oryDiskNetworkStartup impactStartup typeDisk I/O at startupCPU at startupRunning nowDisabled 
+16621	e IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%    䅐NameCPU tim
+16621	p processCommand BarIconUnable to start serviceUnable to stop serviceUnable to restart serviceUnable to set vir
+16621	ode Unable to select columns   
+16621	perature%d °C(%d °C)             䅐        1.0 : Compute	Engine %u      3DVideo DecodeVideo Enco
+16621	perature%d °C(%d °C)             䅐        1.0 : Compute	Engine %u      3DVideo DecodeVideo Enco
+16621	64Arm64 (x86 compatible)Arm64 (x64 compatible)            JCouldn't get current process token. OpenProcessToken 
+16621	p (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if system is under memory press
+16622	terprise contextPower throttlingArchitecture"Hardware-enforced Stac
+16622	d process*Do you want to end the process tree of %s?ßIf open programs
+16622	saved data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do
+16622	.+Do you want to change the priority of '%s'?䅐JChanging the priority of certain processes could cause system instabilit
+16622	g                             System interrupts7Deferred procedure calls and interrupt service routines
+16622	NoneGPRSEDGE䅐UMTSHSDPAHSUPAHSPALTE1xRTT1xEVDO1xEVDO RevA1xEVDV3xRTT1xEVDO RevBUMB5G Bluetooth PANEthe
+16622	tinue?.Do you want to end the selected process trees?èIf open programs or processes are associated with the sel
+16622	etwork I/O            %I64d%% C
+16622	d process*Do you want to end the process tree of %s?ßIf open programs
+16622	saved data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do
+16622	.+Do you want to change the priority of '%s'?䅐JChanging the priority of certain processes could cause system instabilit
+16622	saved data. If you end a system process, it might result in system instability. Are you sure you want to continue?Se
+16622	't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut down.+Do you want to chan
+16622	 operationalUnknownAnyInfrared basebandVendor specific      UnknownNoneGPRSEDGE䅐UMTSHSDPAHSUPAHSPA
+16622	saved data. If you end a system process, it might result in system instability. Are you sure you want to continue?Se
+16622	't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut down.+Do you want to chan
+16622	 system instability. Are you sure you want to continue?End process*Do you want to end the process tree o
+16622	't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut down.+Do you want to chan
+16622	d process*Do you want to end the process tree of %s?ßIf open programs
+16622	saved data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do
+16622	.+Do you want to change the priority of '%s'?䅐JChanging the priority of certain processes could cause system instabilit
+16622	etwork I/O            %I64d%% C
+16622	etwork I/O            %I64d%% C
+16622	etwork I/O            %I64d%% C
+16622	 use by the processVRead (B/sec): Average number of bytes per second read from the file in the last minut
+16622	 use by the process that can be shared with other processesIAmount of virtual memory reserved by the oper
+16622	ute6Amount of time spent by the CPU executing instructions;Amount of network activity, including download
+16622	dows BackupService Host: Windows Defender5Service Host: Microsoft Software Shadow Copy ProviderService 
+16622	dby (%1!s! MB)
+Memory that contains cached data and code that is not actively in useFree (%1!s!
+16622	g system need more memory¬Cached (%1!s! MB)
+Amount of memory (including standby and modified memory) con
+16622	on-volatile device              
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	d receive activity on this Bluetooth personal area network       N/A  PropertyNetwork utilizat
+16622	
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes throughput
+Bytes sentBytes receivedB
+16622	geCached rangeSeparator barCPU IconMemory Icon	Disk IconNetwork IconDisconnected network gr
+16622	unicasts sent per interval!Nonunicasts received per intervalNonunicasts per intervalGeneric Bluetooth Adapter
+16622	cluding loss of data. You should do this only for debugging.Change virtualization2Unhandled error occurr
+16622	 on Efficiency mode Unable to select columns               ~You need administrator privileges to complete this ta
+16622	ter the selected user's password{You need administrator privileges to
+16622	able to turn on Efficiency mode Unable to select columns               ~You need adm
+16622	ter the selected user's password{You need administrator privileges to
+16622	able to turn on Efficiency mode Unable to select columns               ~You need adm
+16622	ing apps%The operation could not be completed.,The operation is not valid for this process.Unable to terminat
+16622	ce %1!s! for current user account.
+Duration :                 CCPU %1!d!%2!s!
+Memory %3!d!%4!s!
+Disk %5!d
+16622	alExempt (UnenlightenedEnlightened
+PermissiveFile copy exempt), N/A          DisabledEnabledMicrosof
+16622	alExempt (UnenlightenedEnlightened
+PermissiveFile copy exempt), N/A          DisabledEnabledMicrosof
+16622	 in a few seconds.dCancellation thread failed to wait until memory dump procedure timed out. Unknown wait
+16622	known argument: [%ls] (index %d).&Failed to initialize app dependencies.     䅐&Launch Task Manager from Startup page.
+16622	ds.nFailure while waiting for live kernel memory dump collection (status 0x%X). Please try again in a few secon
+16622	known argument: [%ls] (index %d).&Failed to initialize app dependencies.     䅐&Launch Task Manager from Startup page.
+16622	el memory dump collection. Please try again in a few seconds.nFailure while waiting for live kernel memory dump co
+16622	itialize app dependencies.     䅐&Launch Task Manager from Startup page.$Run Task Manager in low-memory mo
+16623	pen`open`file`Data file to load5
+16623	rking set)Memory (shared working set)Commit size
+Paged poolNP poolPage faultsPF DeltaBase priorityHandlesThread
+16623	u want to end the selected process trees?èIf open programs or processes are associated with the selected process trees, t
+16623	se any data hasn't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut do
+16623	u end a system process, it might result in system instability. Are you sure you want to continue?End process*Do you want
+16623	 end the process tree of %s?ßIf open programs or processes are associated with this process tree, they will close an
+16623	u want to continue?               MWhen attempting to execute the command, the following system error occurred:          
+16623	rmalAbove normalHighRealtimeN/A  
+Windows XPWindows Vista	Windows 7	Windo
+16623	u want to end the selected process trees?èIf open programs or processes are associated with the selected process trees, t
+16623	se any data hasn't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut do
+16623	cess '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to lose any data ha
+16623	cess '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to lose any data ha
+16623	cess '%s'?Ending this process will cause Windows to become unusable or shut down, causing you to lose any data ha
+16623	u want to end the selected process trees?èIf open programs or processes are associated with the selected process trees, t
+16623	se any data hasn't been saved. Are you sure you want to continue?	Shut down#Abandon unsaved data and shut do
+16623	rk activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for
+16623	tifications8Amount of network activity over a non-metered connection$Download activity by the application"Uplo
+16623	st: Local Service.Service Host: Local Service (No Impersonation)0Service
+16623	nation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host: Remote Registry#
+16623	cess is runningProcess execution status8Specifies whether the process is running elevated or not dSpecifies wheth
+16623	ndsHSend (B/sec): Average number of bytes per second sent in the last minuteOReceive (B/sec): Avera
+16623	st: Local Service.Service Host: Local Service (No Impersonation)0Service
+16623	nation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host: Remote Registry#
+16623	rk activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for
+16623	tifications8Amount of network activity over a non-metered connection$Download activity by the application"Uplo
+16623	st: Local Service.Service Host: Local Service (No Impersonation)0Service
+16623	nation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host: Remote Registry#
+16623	rk activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for
+16623	tifications8Amount of network activity over a non-metered connection$Download activity by the application"Uplo
+16623	st: Local Service.Service Host: Local Service (No Impersonation)0Service
+16623	nation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host: Remote Registry#
+16623	rk activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for
+16623	tifications8Amount of network activity over a non-metered connection$Download activity by the application"Uplo
+16623	st: Local Service.Service Host: Local Service (No Impersonation)0Service
+16623	nation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host: Remote Registry#
+16623	
+16623	st: Local Service (No Impersonation)0Service Host: Local Service (Networ
+16623	rk Service (No Impersonation)2Service Host: Network Service (Network Restricted)Service Host: BranchCacheService Host
+16623	n Host Helper Service*Service Host: Internet Information ServiceService Host: Printer Services䅐*Service 
+16623	r the operating system
+
+In use
+16623	perating system
+
+In use compre
+16623	cesses, drivers, or the operating systemËIn use (%1!s! MB)
+Memory used by processes, drivers, or the operating sy
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	dified   CPU Disk    In UseStandbyFreeMemory   NetworkGPU      Servi
+16623	rt:   UtilizationSpeedUp time	ProcessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 se
+16623	ndsLogical processors% Utilization over 60 seconds% Utilization%s GHz% Utilization (Paused)Op
+16623	ts used:%1!u! of %2!u!䅐	AvailableCached	CommittedIn use
+Paged pool Non-paged pool Memory usageMemory c
+16623	nnection type:IPv4 address:IPv6 address:	DNS name:Domain name: 
+16623	rk       N/A  PropertyNetwork utilization
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes th
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	cessesThreadsHandles% Utilization over 4 minutes% Utilization over 30 secondsLogical processors% Utilization
+16623	ver 60 seconds% Utilization%s 
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	mmittedIn use
+Paged pool Non-paged pool Memory usageMemory comp
+16623	n䅐GPU Icon                    Adapter name:Service provider:Connection type:IPv4 address:IPv6
+16623	nnection type:IPv4 address:IPv6 address:	DNS name:Domain name: 
+16623	rk       N/A  PropertyNetwork utilization
+Link speedStateBytes sent throughput䅐Bytes received throughputBytes th
+16623	r barCPU IconMemory Icon	Disk IconNetwork IconDisconnected network graphDynamic Resource InformationStatic Res
+16623	nDisconnected network graphDynamic Resource InformationStatic Resource InformationResource Char
+16623	ntinue?Sign out user9Are you sure you want to disconnect the selected user(s)?Disconnect userMes
+16623	peration is not valid for this p
+16623	cess.Unable to terminate process Unable to terminate process treeUnable to attach debuggerUnable to change prio
+16623	mplete this task. Close Task Manager, then run it as an administrator and try again.Access denied.
+16623	peration is not valid for this p
+16623	cess.Unable to terminate process Unable to terminate process treeUnable to attach debuggerUnable to change prio
+16623	mplete this task. Close Task Manager, then run it as an administrator and try again.Access denied.
+16623	mmand BarIconUnable to start serviceUnable to stop serviceUnabl
+16623	rted due to system memory pressure.!Memory dump error code: NTSTATUS \After several attempts, the 
+16623	res*Physical memory in use by active processes,Total utilization across all physical drives2Network
+16623	olAdobe Flash PlayerMicrosoft Edge Service Host䅐Developer Tools Server       
+16623	res*Physical memory in use by active processes,Total utilization across all physical drives2Network
+16623	olAdobe Flash PlayerMicrosoft Edge Service Host䅐Developer Tools Server       
+16623	tal amount of GPU dedicated graphics memory in use (across all GPUs) by the processE
+16623	tal amount of system memory in use (across all GPUs) by the processOverall GPU char
+16623	tal amount of GPU dedicated graphics memory in use (across all GPUs) by the processE
+16623	tal amount of system memory in use (across all GPUs) by the processOverall GPU char
+16623	 ProcessingScene AssemblyLegacy OverlayCrypto        ,This option is managed by your organization.
+16623	ry dump file (error 0x%X).sCurrent process does not have elevated privileges to collect live kernel memory du
+16623	 apply ACL to live kernel memory dump file (error 0x%X).sCurrent process does not have elevated privileges to collec
+16623	uldn't lookup SeDebugPrivilege name. LookupPrivilegeValue returns h
+16623	 remaining attempts to retry this request. Please try again in a few seconds.c
+16623	mmand line: unknown argument: [%ls] (index %d).&Failed to initialize app dependencies.     䅐&Launch
+16623	t %1!u!: %2!s!, %3!hu! MT/s              䅐Summary view               SCSIATAPIATA1394SSAFibre Channel
+16623	lation technology protecting apps and improving the security of your PC	IsolationJIsolation technology protecting a
+16623	tal amount of shared system memory in use for NPU (across all NPUs) by the process  
+16624	ping 䅐  Not respondingRunning	SuspendedEfficiency mode          䅐          
+BackgroundLowNormalHighCriti
+16624	pear in the table.          +Do you want to end the system process '%s'?Ending this process will
+16624	en programs or processes are associated with this process tree, they will close and you will lose any unsaved d
+16624	s䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbps10 Gbps100 Gbps
+16624	s䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbps10 Gbps100 Gbps
+16624	s䅐100 Kbps   100 Kbps500 Kbps1 Mbps11 Mbps54 Mbps100 Mbps500 Mbps1 Gbps10 Gbps100 Gbps
+16624	ecifies whether User Account Control (UAC) virtualization is enabled, disabled, or 
+16624	rocesses, drivers, or the operat
+16624	ressed memory stores an estimated %3!s! MB of data, saving the system %4!s! MB of memory              Other
+16624	ressed)䅐R: W: Disk %1!d! (%2!s!)Type: 	Capacity:
+Formatted:System disk:
+Page file:
+Read speedWrite spee
+16624	lete this task. Close Task Manager, then run it as an administrator and try again.Access denied.!Unable to t
+16624	psBackground processesWindows processes Resource &values Disa
+16624	rocessor utilization across all 
+16624	rocessor utilization across all 
+16624	ower consumption over timeGPU T
+16624	ower consumption over timeGPU T
+16624	arameters 1-4 (ULONG_PTR)    䅐P
+16624	 Management               .盳 t颼  1က1က@  　　d 倀倀  倀倀´ 退退Ô $Response Time
+ Info
+  Start
+ Stop
+
+16626	ess signing                             System interrupts7Deferred procedure calls and interrupt se
+16626	vicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want to end %s
+16626	 processes are associated with this process tree, they will close and you will lose any unsaved data. If you en
+16626	chitecture"Hardware-enforced Stack ProtectionExtended Control Fl
+16626	e you sure you want to continue?End process tree*Do you want to 
+16626	ess signing                             System interrupts7Deferred procedure calls and interrupt se
+16626	vicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want to end %s
+16626	 processes are associated with this process tree, they will close and you will lose any unsaved data. If you en
+16626	sApp history             Task ManagerDo you want to end %s?ÌIf an open program is associated with 
+16626	centage of time the processor is idle      IPv4 loopbackIPv6 loopbackIPv4 unspecifiedIPv6 unspeci
+16626	esult in system instability. Are
+16626	ee, they will close and you will lose any unsaved data. If you end a system process, it might result in system insta
+16626	vicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want to end %s
+16626	 processes are associated with this process tree, they will close and you will lose any unsaved data. If you en
+16626	rently in use by the process5Maximum amount of physical memory used by the process*Change in working set usage by the
+16626	ocessxAmount of physical memory in use by the process that can't be used by other processes (excludes suspended 
+16626	ol (UAC) virtualization is enabled, disabled, or not allowed in the process             /Manage running apps and vie
+16626	vice Host: Remote Procedure CallService Host: Windows BackupService Host: Windows Defender5Service 
+16626	 Data Execution Prevention (a security feature) enabled or disabled for the process*Job object in whi
+16626	ol (UAC) virtualization is enabled, disabled, or not allowed in the process             /Manage running apps and vie
+16626	vice Host: Remote Procedure CallService Host: Windows BackupService Host: Windows Defender5Service 
+16626	ations other than read/write (for instance, control functions)Path of the executable file1Full comma
+16626	evention (a security feature) enabled or disabled for the process*Job object in 
+16626	ead from the file in the last mi
+16626	ol (UAC) virtualization is enabled, disabled, or not allowed in the process             /Manage running apps and vie
+16626	vice Host: Remote Procedure CallService Host: Windows BackupService Host: Windows Defender5Service 
+16626	ol (UAC) virtualization is enabled, disabled, or not allowed in the process             /Manage running apps and vie
+16626	vice Host: Remote Procedure CallService Host: Windows BackupService Host: Windows Defender5Service 
+16626	ol (UAC) virtualization is enabled, disabled, or not allowed in the process             /Manage running apps and vie
+16626	vice Host: Remote Procedure CallService Host: Windows BackupService Host: Windows Defender5Service 
+16626	vice Host: ActiveX InstallerService Host: Bluetooth Support*Service Host: DCOM Server Process Launch
+16626	posed first when processes, drivers, or the operating system need more memory¬Cached (%1!s! MB)
+Amount of memory (in
+16626	ved	Not Found            䅐Logical non-volatile device               䅐OtherUnknownChipProprietary
+16626	vice Host: Network Service (No Impersonation)2Service Host: Network Service (Network Restricted)Serv
+16626	y (including standby and modified memory) containing cached data and code for rapid access by processes, driver
+16626	vice Host:                      pHardware reserved (%1!s! MB)
+Memory that is reserved for use by the
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ocess details              䅐          Base speed:Sockets:Logical processors: 
+16626	sistent Memory	RemovableSDUSB  Unknown0Total installed memoryMemory usage in percentageOverall
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	ked
+%1!d!%2!s!%1!d!%2!s! (%3!d!%4!s!)Open Resource Monitor iconOpen Services iconCPU %d @ %s 
+16626	dware reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	vices iconCPU %d @ %s GHz         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCached
+16626	ansfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSSDPersistent Memory	RemovableSDUSB  Unknow
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	all CPU chart paneLogical CPU chart paneNuma node CPU chart paneAvailable rangeCached rangeSepar
+16626	 intervalBytes per intervalUnicasts sentUnicasts receivedUnicastsUnicasts sent per intervalUnic
+16626	valGeneric Bluetooth AdapterEthernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16626	nel memory dump process        䅐        0Do you want to turn on Efficiency mode for '%s'?Efficiency 
+16626	vices              
+Switch &toResource usage text Delete usage history No data available @Resource
+16626	ove system performance;This UWP process is suspended to improve system performancePThis process group is in effi
+16626	ocess is suspended to improve system performancePThis process group is in efficiency mode to limit resources use
+16626	rent user account.
+Duration :                 CCPU %1!d!%2!s!
+Memory %3!d!%4!s!
+Disk %5!d!%6!s!
+Network %7!d!%8!s! CP
+16626	ce usage since %1!s! for current user account.
+Duration :                 CCPU %1!d!%2!s!
+Memory %3!d!%4!s!
+Disk %5!d
+16626	ove system performance;This UWP process is suspended to improve system performancePThis process group is in effi
+16626	formance;This UWP process is suspended to improve system performancePThis process group is in efficie
+16626	owser ExtensionsMicrosoft Web Platform ControlUser Interface Ser
+16626	 Tools Server                       Adapter name:Driver version:Driver date:DirectX version:Util
+16626	y again in a few seconds.nFailure while waiting for live kernel memory dump collection (status 0x%X). Please try aga
+16626	ity descriptor for the memory dump directory. Status 0x%X.&Failed to allocate Admin SID. Hr 0x%X.dFailed to create an
+16626	ivileges to collect live kernel memory dumps. Please run as Administrator.vToo little time has passed since the 
+16626	 debugging (requires Hyper-V)<Add all Hyper-V pages to live memory dump (requires Hyper-V))Specify a cancel tim
+16626	otecting apps and improving the security of your PC	IsolationJIsolation technology protecting apps and improving
+16627	ec)Receive (B/sec)Total (B/sec)Response time
+16627	ec)Receive (B/sec)Total (B/sec)Response time
+16627	tem contextPlatformStatusElevatedUAC virtualizationDescriptionData execution preventionDisk total (B/sec)Total (B
+16627	 8Windows 8.1 %1 (%2)16 bit32 bit64 bit32 bit     YesNo    DisabledEnabled   DisabledCompatible modules onl
+16627	pecifiedIPv6 unspecified 	ConnectedDisconnected
+ConnectingUnknownNon operationalUnknownAnyInfrared base
+16627	500 Mbps1 Gbps10 Gbps100 Gbps450 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps300 Mbps2 Gbps10 Gbps 
+16627	ta	Windows 7	Windows 8Windows 8.1 %1 (%2)16 bit32 bit64 bit32 bit     YesNo    DisabledEnabled 
+16627	tem Idle Process(Percentage of time the processor is idle      IPv4 loopbackIPv6 loopbackIPv4 unspecifiedIPv6 unspeci
+16627	ure you want to continue?	Shut d
+16627	k I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps network I/O%I64d Mbps network I/O%I64d Gbp
+16627	 8Windows 8.1 %1 (%2)16 bit32 bit64 bit32 bit     YesNo    DisabledEnabled   DisabledCompatible modules onl
+16627	pecifiedIPv6 unspecified 	ConnectedDisconnected
+ConnectingUnknownNon operationalUnknownAnyInfrared base
+16627	500 Mbps1 Gbps10 Gbps100 Gbps450 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps300 Mbps2 Gbps10 Gbps 
+16627	 idle      IPv4 loopbackIPv6 loopbackIPv4 unspecifiedIPv6 unspecified 	ConnectedDisconnected
+Connect
+16627	ec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 bps
+16627	k I/O%I64d KB/sec disk I/O%I64d MB/sec disk I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps 
+16627	ec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 bps
+16627	k I/O%I64d KB/sec disk I/O%I64d MB/sec disk I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps 
+16627	ec1 MB/sec	10 MB/sec
+100 MB/sec1 GB/sec1 bps
+16627	k I/O%I64d KB/sec disk I/O%I64d MB/sec disk I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps 
+16627	500 Mbps1 Gbps10 Gbps100 Gbps450 Kbps800 Kbps䅐7.7 Mbps32 Mbps50 Mbps200 Mbps300 Mbps2 Gbps10 Gbps 
+16627	B/secKB/sMB/sGB/s K5 Mbps26 Mbps250 Mbps3.6 Mbps17 Mbps113 Mbps              %I64d B/sec disk I/O%I
+16627	k I/O%I64d bps network I/O%I64d Kbps network I/O%I64d Mbps network I/O%I64d Gbps network I/O         
+16627	k I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps network I/O%I64d Mbps network I/O%I64d Gbp
+16627	k I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps network I/O%I64d Mbps network I/O%I64d Gbp
+16627	k I/O%I64d KB/sec disk I/O%I64d MB/sec disk I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps 
+16627	k I/O%I64d GB/sec disk I/O%I64d bps network I/O%I64d Kbps network I/O%I64d Mbps network I/O%I64d Gbp
+16627	tem (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Network Service (No Impe
+16627	t: Microsoft Software Shadow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%S
+16627	`Amount of non-pageable kernel memory allocated by the kernel or drivers on behalf of the processCNumber of page fa
+16627	 the order in which threads of a process are scheduled-Current number of handles open by the process
+16627	tem (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Network Service (No Impe
+16627	t: Microsoft Software Shadow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%S
+16627	tem (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Network Service (No Impe
+16627	t: Microsoft Software Shadow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%S
+16627	tem (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Network Service (No Impe
+16627	t: Microsoft Software Shadow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%S
+16627	tem (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Network Service (No Impe
+16627	t: Microsoft Software Shadow Copy ProviderService Host: Windows Biometric"Service Host: Windows Color System%S
+16627	t: Local System (Network Restricted)Service Host: Local System䅐Service Host: Network Service0Service Host: Ne
+16627	t: File Server Resource ManagerService Host: Group Policy$Service Host: Unistack Service GroupService Host: U
+16627	t: Windows Biometric"Service Host: Windows Color System%Service Host: Windows Error Reporting'Service Host: Vir
+16627	ed (%2!s! MB)
+Memory compression is not enabledlModified (%1!s! MB)
+Memory whose contents must be written to disk
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	     CPU  MemoryGPU                        Tab controlCharts䅐TablesProcess details            
+16627	 per intervalNonunicasts sentNonunicasts received䅐NonunicastsNonunicasts sent per interval!Nonunicasts received 
+16627	 KB䅐        %1!s!/%2!s! MB%1!s! (%2
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	! ...%1!s!/%2!s! TB%s MB%s GB
+16627	 TB%s PB%s%s%s%sIn use (Compres
+16627	 - Parked
+%1!d!%2!s!%1!d!%2!s! (%3!d
+16627	peedAverage response timeDisk 
+16627	 per intervalNonunicasts sentNonunicasts received䅐NonunicastsNonunicasts sent per interval!Nonunicasts received 
+16627	 GB%s TB%s PB%s%s%s%sIn use (C
+16627	k transfer rateActive time100%Disk %d  %s ms%1!s! %2!s! %.0f%%HDDSSDPersistent Memory	Removable
+16627	! Not connectedS: R:      䅐   
+16627	ionId=%d) could not be disconnected.
+>If you sign out a user, the user's unsaved data might be lost.Do you want to
+16627	 MB %s ms    %s MB%s MB/s%s Mbps
+16627	 to complete this task. Select 'Run as administrator' from the Navigation pane and try again.        
+16627	age since %1!s! for current user and system accounts. Uninstalled processesRemote processes䅐System4Resource usage 
+16627	,Total utilization across all physical drives2Network utilization on the current primary networkbDegr
+16627	&able  Last BIOS time: 
+%1 seconds          䅐 	&End task&Restart&Switch user	Si&gn outDis&connectOpe
+16627	ed by the process.                       -Windows system process for memory compression  䅐 PersonalExempt (Unenli
+16627	 memory in use (across all GPUs) by the processETotal amount of system memory in use (across all GP
+16627	et the security descriptor for t
+16627	. Please run as Administrator.vToo little time has passed since the last live kernel memory dump request. Please
+16627	.ONo remaining attempts to retry this request. Please try again in a few seconds.cLive kernel memory
+16627	 collected successfully.#Collecting live kernel memory dump.2Live kernel memory dump was written 
+16627	 Enter to change sorting.               %u MT/sSlot %1!u!: %2!s!, %3!hu! MT/s              䅐Summary view        
+16627	 collected successfully.#Collecting live kernel memory dump.2Live kernel memory dump was written 
+16627	 Enter to change sorting.               %u MT/sSlot %1!u!: %2!s!, %3!hu! MT/s              䅐Summary view        
+16627	 settings.AFailed to apply ACL to live kernel memory dump file (error 0x%X).sCurrent process does not have elevated
+16627	er mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, excluding some pages unlikely to be useful 
+16627	 Enter to change sorting.               %u MT/sSlot %1!u!: %2!s!, %3!hu! MT/s              䅐Summary view        
+16627	 and improving the security of your PC  SiloUWP        䅐AppContainer               NPU
+NPU engine*Highest ut
+16628	opping 䅐  Not respondingRunning	SuspendedEfficiency mode          䅐          
+Ba
+16628	ed process trees, they will close and you will lose any unsaved data. If you end a system process, 
+16628	ree*Do you want to end the selec
+16628	work I/O%I64d Mbps network I/O%I64d Gbps network I/O            %I64d%% CPU usage%I64d%% Used phy
+16628	ailsServicesPerformance	ProcessesStartupUsersApp history             Task ManagerDo you want t
+16628	his process tree, they will clos
+16628	ree*Do you want to end the selec
+16628	work I/O%I64d Mbps network I/O%I64d Gbps network I/O            %I64d%% CPU usage%I64d%% Used phy
+16628	work I/O%I64d Mbps network I/O%I64d Gbps network I/O            %I64d%% CPU usage%I64d%% Used phy
+16628	work I/O%I64d Mbps network I/O%I64d Gbps network I/O            %I64d%% CPU usage%I64d%% Used phy
+16628	 of virtual memory reserved by the operating system for the process\Amount of pageable kernel memory allocated
+16628	ionssTotal number of bytes read by the process in I/O operations other than read/write (for insta
+16628	ection (a security feature using return address signing) for the process     oSpecifies whether User Account Co
+16628	 of physical memory in use by the process that can't be used by other processes (excludes suspended UWP proces
+16628	s generated by the process since it was startedHChange in the number of page faults in the process since the
+16628	he process8Operating system cont
+16628	ection (a security feature using return address signing) for the process     oSpecifies whether User Account Co
+16628	y of I/O transfers6Response time (ms): Disk response time in millisecondsHSend (B/sec): Average number of
+16628	ection (a security feature using return address signing) for the process     oSpecifies whether User Account Co
+16628	ection (a security feature using return address signing) for the process     oSpecifies whether User Account Co
+16628	ection (a security feature using return address signing) for the process     oSpecifies whether User Account Co
+16628	 allowed in the process             /Manage running apps and view system performance   Default System Session
+16628	e Procedure CallService Host: Windows BackupService Host: Windows Defender5Service Host: Microsoft Software S
+16628	her peripheralsIn use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+
+In use compres
+16628	 is not actively in useFree (%1!s! MB)
+Memory that is not currently in use, and that will be re
+16628	em
+
+In use compressed (%2!s! MB)
+Compressed memory stores an estimated %3!s! MB of data, saving the system %4!s!
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	work IconDisconnected network graphDynamic Resource InformationStatic Resource InformationResourc
+16628	ivityPrivate working set$Read and write activity on this disk@Percentage of time the disk is proce
+16628	s received per intervalUnicasts per intervalNonunicasts sentNonunicasts received䅐NonunicastsNonunicasts sent p
+16628	 paneNuma node CPU chart paneAvailable rangeCached rangeSeparator barCPU IconMemory Icon	Disk IconNetwork I
+16628	es throughput
+Bytes sentBytes receivedBytesBytes sent per intervalBytes received per intervalBytes per intervalUnic
+16628	s sentUnicasts receivedUnicastsUnicasts sent per intervalUnicasts received per intervalUnicasts per intervalN
+16628	hernetWi-FiMobileWi-Fi DirectWLAN Direct       	CPU %1!u!CPU %2!
+16628	ificationsMetered networkNon-metered network	DownloadsUploads                      Sorted (ascending)Sorte
+16628	o restart serviceUnable to set 
+16628	ilization on the current primary networkbDegree of impact from CPU and disk activity, measured during startup and upd
+16628	y, measured during startup and updated with each restartCCPU activity, measured during startup and update
+16628	ilization on the current primary networkbDegree of impact from CPU and disk activity, measured during startup and upd
+16628	enedEnlightened
+PermissiveFile copy exempt), N/A          DisabledEnabledMicrosoft Edge Manager
+16628	SystemDebugControl returned STATUS_CANCELLED.UThe live kernel memory dump coll
+16628	 already defined: [%ls] (index %d).?Error parsing command line: unknown argument: [%ls] (index %d).&Failed to 
+16628	al processor utility across all cores              䅐 instances.               䅐	IsolationJIsolation technology
+16628	he security of your PC  SiloUW
+16628	 processes-CPU usage attributed to short-lived processes              $Service Host: Windows App Management   
+16628	op
+  Error
+  Information
+ hMicrosoft-Windows-Diagnosis-AdvancedTaskManager
+
+16629	ard               
+ContinuingPausedPausingRunningStartingStoppedS
+16629	dit mode)All modules (audit mode) DisabledEnabled (audit mode)Enabled    䅐Return address sig
+16629	nspecifiedIPv6 unspecified 	Con
+16629	teXWrite (B/sec): Average number of bytes per second written to the file in the last minute&IO priority: Prior
+16629	ding standby and modified memory) containing cached data and code for rapid access by processes, drivers, an
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	ghput
+Bytes sentBytes receivedBytesBytes sent per intervalBytes received per intervalBytes per intervalUn
+16629	!䅐	AvailableCached	CommittedIn 
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	se (Compressed)䅐R: W: Disk %1
+16629	ghput
+Bytes sentBytes receivedBytesBytes sent per intervalBytes received per intervalBytes per intervalUn
+16629	rce InformationResource Chart ViewDisconnected network icon䅐GPU Icon                    Adapter name:Servi
+16629	ghputReceiveSend%1!s! %2!s!Signal strength: %1!s! %1!s! %2!s! Not connectedS: R:      䅐          CPU 
+16629	etooth personal area network       N/A  PropertyNetwork utilization
+Link speedStateBytes sent throughpu
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	nicasts sentNonunicasts received䅐NonunicastsNonunicasts sent per interval!Nonunicasts received per interval
+16629	pRunning nowDisabled time IDClient nameSessionUser
+%1 (%2!d!)䅐 %s MB %s ms    %s MB%s MB/s%s Mbps%s%%   
+16629	syDisabledEnabledNot responding	SuspendedWaiting for user	Shad
+16629	ld not be acquired. Ensure that you are running Task Manager as an administrator and try again.@The memory dump
+16629	ld not be acquired. Ensure that you are running Task Manager as an administrator and try again.@The memory dump
+16629	lts including loss of data. You should do this only for debugging.Change virtualization2Unhandled error occurred w
+16629	 want to continue?Turn on Efficiency mode     䅐          NoneNot measuredLowMediumHighRegistry䅐Folder%
+16629	tDis&connectOpen Services              
+Switch &toResource usage text Delete usage history No data availab
+16629	rce usage since %1!s! for current user and system accounts. Uninstalled processesRemote processes䅐System4Res
+16629	n Task Manager in low-memory mode."Disable rejuvenated Xaml-based UX.Display this
+16629	ments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR)    䅐Pr
+16629	mp request. Please wait and try again in a few seconds.ONo remaining attempts to retry this request.
+16629	n Task Manager in low-memory mode."Disable rejuvenated Xaml-based UX.Display this
+16629	ments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR)    䅐Pr
+16629	t in milliseconds.:Abort live memory dump if system is under memory pressure.aCollect a kernel stacks live memo
+16629	n Task Manager in low-memory mode."Disable rejuvenated Xaml-based UX.Display this
+16629	ments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR)    䅐Pr
+16629	r PC  SiloUWP        䅐AppContainer               NPU
+NPU engine*Highest utilization across all NPU engines 
+16629	tilization across all NPU engine
+16630	atedUAC virtualizationDescriptionData execution preventionDisk total (B/sec)Total (B/sec)Send (
+16630	ice routinesSystem Idle Process(Percentage of time the processor is idle      IPv4 loopbackIPv6 loopbackIPv4 u
+16630	ice routinesSystem Idle Process(Percentage of time the processor is idle      IPv4 loopbackIPv6 loopbackIPv4 u
+16630	e time%I64d MB in use%I64d MB available%d MB           Disk %s (%s) queue length               䅐     
+16630	e time%I64d MB in use%I64d MB available%d MB           Disk %s (%s) queue length               䅐     
+16630	e time%I64d MB in use%I64d MB available%d MB           Disk %s (%s) queue length               䅐     
+16630	e time%I64d MB in use%I64d MB available%d MB           Disk %s (%s) queue length               䅐     
+16630	ice Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helpe
+16630	e letterfTotal (B/sec): Average number of bytes per second read from and written to the file in the last 
+16630	ice Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helpe
+16630	ice Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helpe
+16630	ice Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helpe
+16630	ice Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helpe
+16630	ed (%1!s! MB)
+Memory that is reserved for use by the BIOS and some drivers for other peripheralsIn use (%1!s! MB
+16630	ice name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal strength: %1!s! %1!s! %2!s! Not connec
+16630	ice name:SSID: 
+ThroughputReceiveSend%1!s! %2!s!Signal strength: %1!s! %1!s! %2!s! Not connec
+16630	erall CPU chart paneLogical CPU chart paneNuma node CPU chart paneAvailable 
+16630	irtualization for a process may 
+16630	irtualization for a process may 
+16630	ileges to complete this task. Close Task Manager, then run it as an administrator and try again.Access d
+16630	ilege. AdjustTokenPrivileges returns 0x%X.ZTimeout expired for live kernel memory dump collection. Please
+16630	ileges returns 0x%X.ZTimeout expired for live kernel memory dump collection. Please try again in a few se
+16631	ith the selected processes, they
+16631	ill close and you will lose any 
+16631	n#Abandon unsaved data and shut down.+Do you want to change the priority of '%s'?䅐JChanging the priority of cer
+16631	ith the selected processes, they
+16631	ill close and you will lose any 
+16631	ill close and you will lose any 
+16631	ill close and you will lose any 
+16631	ith the selected processes, they
+16631	ill close and you will lose any 
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	are reserved:Maximum memory: (%.0f%%)Slot %1!u!: %2!s!, %3!hu! MHzSlot %1!u!: empty%1!s! %2!s! 
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	ingDisconnectedLocalRemoteVery lowLowModerateHigh	Very highEfficiency mode               䅐  UserProce
+16631	ill open it for you.2User %s (Se
+16631	s processes Resource &values DisabledEnabledNot allowed   AppBackground processWindows process䅐         
+16631	 details      List of items More &detailsFewer &detailsCreate new taskeType the name of a program, folder, 
+16631	 details      List of items More &detailsFewer &detailsCreate new taskeType the name of a program, folder, 
+16631	ith each restartKImpact hasn't b
+16631	ait and try again in a few secon
+16632	ecute the command, the following system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 K
+16632	ecute the command, the following system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 K
+16632	ecute the command, the following system error occurred:            䅐1 B/sec1 KB/sec	10 KB/sec
+100 K
+16632	imum amount of physical memory used by the process*Change in working set usage by the processxAmo
+16632	t in which the process is running;Platform (16 bit or 32 bit) on which the process is running;Platfor
+16632	86 compatible)ARM64 (x64 compatible)   
+16632	86 compatible)ARM64 (x64 compatible)   
+16632	cluding some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to li
+16632	cluding some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to li
+16632	cluding some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to li
+16633	 will close and you will lose any unsaved data. If you end a system process, it might result in syste
+16633	 will close and you will lose any unsaved data. If you end a system process, it might result in syste
+16633	ou sure you want to continue?En
+16633	ou end a system process, it migh
+16633	 will close and you will lose any unsaved data. If you end a system process, it might result in syste
+16633	tes read by the process in I/O operations>Total number of bytes written by the process in I/O oper
+16633	tes per second sent in the last minuteOReceive (B/sec): Average number of bytes per second receive
+16633	 processes, drivers, or the operating systemËIn use (%1!s! MB)
+Memory used by processes, drivers,
+16633	 the user.:The memory dump was aborted due to system memory pressure.!Memory dump error code: NTST
+16633	 mode to limit resources used by the process.JThis process is in efficiency mode to limit resources
+16633	 dump exited. Status 0x%X.1Directory handle creation failed with error 0x%X.=Live kernel memory dump file creation
+16633	 dump and terminate Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, 
+16633	 dump and terminate Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, 
+16633	 this request. Please try again in a few seconds.cLive kernel memory dump cancel event was signalled. NtSystemDebu
+16633	 dump and terminate Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, 
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+16634	         䅐             Speed:Slots used:%1!u! of %2!u!䅐	AvailableCac
+20608	@  　　d 倀倀  倀倀´ 退退Ô $Response Time
+ Inf
+33232	
+33232	
+33232	
+33232	
+33232	
+33232	
+33232	
+33232	
+33232	R: W: Disk %1!d! (%2!s!)Type: 	Capaci
+33232	
+33232	
+33232	
+33232	Bytes received throughputBytes throughput
+Bytes sentBytes receivedBytesBytes sent per intervalBytes received p
+33232	
+33232	
+33232	
+33232	
+33232	
+33232	

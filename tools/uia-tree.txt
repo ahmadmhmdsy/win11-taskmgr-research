@@ -1,0 +1,3 @@
+Window | Task Manager | id= | class=TaskManagerWindow | off=False
+  Pane | DesktopWindowXamlSource | id= | class=Windows.UI.Composition.DesktopWindowContentBridge | off=False
+    Pane |  | id= | class=Windows.UI.Input.InputSite.WindowClass | off=False

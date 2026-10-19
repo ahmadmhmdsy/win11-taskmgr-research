@@ -1,0 +1,1105 @@
+!This program cannot be run in DOS mode.
+Rich
+.rdata
+@.rsrc
+.rdata
+.rdata$voltmd
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+en-US
+CPU Context
+&End task
+End process &tree
+Provide feed&back
+Efficiency &mode
+Set &priority
+&Realtime
+&High
+&Above normal
+&Normal
+&Below normal
+&Low
+Set a&ffinity
+&Analyze wait chain
+&Debug
+UAC &virtualization
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+&Open file location
+Search o&nline
+P&roperties
+Go to &service(s)
+Header Context
+Hi&de column
+&Select columns
+Service Context
+&Start
+S&top
+&Restart
+Open Ser&vices
+Search &online
+Go to &details
+Other Context
+&End process
+&File
+Run &new task
+E&xit
+&Options
+&Always on top
+&Minimize on use
+&Hide when minimized
+Set &default tab
+P&rocesses
+P&erformance
+App h&istory
+S&tartup
+&Users
+Detai&ls
+Ser&vices
+&Show full account name
+Show history for all &processes
+&View
+&Refresh now
+&Update speed
+&High
+&Normal
+&Low
+&Paused
+&Group by type
+&Expand all
+&Collapse all
+Dashboard Context
+C&hange graph to
+&Overall utilization
+&Logical processors
+&NUMA nodes
+&Single engine
+Multiple &engines
+Show &kernel times
+Graph summary vie&w
+&View
+C&PU
+&Memory
+&Disk
+&Network
+&GPU
+View network &details
+&Copy 
+Ctrl+C
+Dashboard Sidebar Context
+Summary vie&w
+&Show graphs
+&Hide graphs
+&Copy 
+Ctrl+C
+Process Context
+Ex&pand
+Colla&pse
+Switch &to
+&Restart
+&End task
+Resource &values
+&Memory
+Percents
+Values
+Dis&k
+Percents
+Values
+&Network
+Percents
+Values
+Provide feed&back
+Efficiency &mode
+&Debug
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+Run &new task
+&Always on top
+&Go to details
+&Open file location
+&Search online
+Propert&ies
+Window Context
+Switch &to
+&Bring to front
+&Minimize
+Ma&ximize
+&End task
+Service Context
+&Stop
+Open Ser&vices
+Search &online
+User Context
+Ex&pand
+Colla&pse
+&Connect
+&Disconnect
+S&ign off
+&Send message
+S&witch user account
+&Manage user accounts
+Startup Item Context
+Ex&pand
+Colla&pse
+&Enable
+&Disable
+&Open file location
+&Search online
+Propert&ies
+App history Context
+Switch &to
+&Search online
+&Properties
+System Tray Context
+&Restore
+&Close
+&Always on top
+Additional ColHeader Context
+&Memory
+Percents
+Values
+D&isk
+Percents
+Values
+&Network
+Percents
+Values
+Startup Process Context
+&Open file location
+&Search online
+Propert&ies
+CPU Context
+&End task
+End process &tree
+&Restart
+Provide feed&back
+Efficiency &mode
+Set &priority
+&Realtime
+&High
+&Above normal
+&Normal
+&Below normal
+&Low
+Set a&ffinity
+&Analyze wait chain
+&Debug
+UAC &virtualization
+&Create dump file
+&Create memory dump file
+Create &live kernel memory dump file
+&Full live kernel memory dump
+&Kernel stacks memory dump
+Change memory dump &settings
+&Open file location
+Search o&nline
+P&roperties
+Go to &service(s)
+Dashboard Context
+C&hange graph to
+&Overall utilization
+&Logical processors
+&NUMA nodes
+&Single engine
+Multiple &engines
+Show &kernel times
+Graph summary vie&w
+&View
+C&PU
+&Memory
+&Disk
+&Network
+&GPU
+NP&U
+View network &details
+&Copy 
+Ctrl+C
+Analyze wait chain
+MS Shell Dlg
+Analyzing
+SysTreeView32
+The analyze wait chain tree shows which processes (root nodes in the tree) are using, or waiting to use, a resource that is being used by another process (child nodes in the tree) and is required for the selected process to continue.
+SysLink
+<A HREF="https://go.microsoft.com/fwlink/?LinkID=136333">More about wait chains</A>
+&End process
+Cancel
+Select processors
+MS Shell Dlg
+SysListView32
+Processors
+Cancel
+Network Details
+Segoe UI
+SysListView32
+Table
+Processor affinity
+MS Shell Dlg
+Which processors are allowed to run "%s"?
+Processor group:
+SysListView32
+Processors
+Cancel
+Processor affinity
+MS Shell Dlg
+Which processors are allowed to run "%s"?
+SysListView32
+Processors
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+Please wait while the process is written to the file.
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Collecting kernel memory dump
+MS Shell Dlg
+Please wait while the live kernel memory dump is written to the file.
+Cancel
+Collecting kernel memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump was unsuccessful.
+Retry
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump could not be performed.
+Collecting kernel memory dump
+MS Shell Dlg
+The live memory dump was cancelled.
+Checking if low on memory
+MS Shell Dlg
+Please wait while the system checks on memory resources.
+Checking if low on memory
+MS Shell Dlg
+The low memory check failed.
+Collecting process memory dump
+MS Shell Dlg
+Please wait while the process is written to the file.
+Cancel
+Collecting process memory dump
+MS Shell Dlg
+The file has been successfully created.
+The file is located at:
+Open file location
+Send Message
+MS Shell Dlg
+&Message title:
+Me&ssage:
+Cancel
+Work Unit
+Work UnitGPerformance counter to expose app-specific structural data (WorkUnits).
+App Owner Process ID
+App Owner Process ID^App Owner Process ID identifies the process which owns this work unit in the app architecture.
+Host Process ID
+Host Process ID
+Host Process ID identifies the process which hosts this work unit. The host process could have terminated, so this value may no longer be valid.
+Segoe UI
+Browser
+Crashpad
+Extension
+GPU Process
+Plugin
+Renderer
+Utility
+res`res`*`Resmon
++load`load`config`Configuration file to load
+ open`open`file`Data file to load5Task Manager has been disabled by your administrator.
+File
+Read (B/sec)
+Write (B/sec)
+Name
+User name
+Session ID
+CPU time
+Cycle
+Working set (memory)
+Peak working set (memory)
+Working set delta (memory)#Memory (active private working set)
+Memory (private working set)
+Memory (shared working set)
+Commit size
+Paged pool
+NP pool
+Page faults
+PF Delta
+Base priority
+Handles
+Threads
+User objects
+GDI objects
+I/O reads
+I/O writes
+I/O other
+I/O read bytes
+I/O write bytes
+I/O other bytes
+Image path name
+Operating system context
+Platform
+Status
+Elevated
+UAC virtualization
+Description
+Data execution prevention
+Disk total (B/sec)
+Total (B/sec)
+Send (B/sec)
+Receive (B/sec)
+Total (B/sec)
+Response time (ms)
+Name
+Group
+Logical disk
+I/O priority
+Job object ID
+Package name
+Enterprise context
+Power throttling
+Architecture"Hardware-enforced Stack Protection
+Extended Control Flow Guard
+Continuing
+Paused
+Pausing
+Running
+Starting
+Stopped
+Stopping
+Not responding
+Running
+Suspended
+Efficiency mode
+Background
+Normal
+High
+Critical
+Below normal
+Normal
+Above normal
+High
+Realtime
+Windows XP
+Windows Vista
+Windows 7
+Windows 8
+Windows 8.1
+%1 (%2)
+16 bit
+32 bit
+64 bit
+32 bit
+Disabled
+Enabled
+Disabled
+Compatible modules only
+All modules$Compatible modules only (audit mode)
+All modules (audit mode)
+Disabled
+Enabled (audit mode)
+Enabled
+Return address signing
+System interrupts7Deferred procedure calls and interrupt service routines
+System Idle Process(Percentage of time the processor is idle
+IPv4 loopback
+IPv6 loopback
+IPv4 unspecified
+IPv6 unspecified
+Connected
+Disconnected
+Connecting
+Unknown
+Non operational
+Unknown
+Infrared baseband
+Vendor specific
+Unknown
+None
+GPRS
+EDGE
+UMTS
+HSDPA
+HSUPA
+HSPA
+1xRTT
+1xEVDO
+1xEVDO RevA
+1xEVDV
+3xRTT
+1xEVDO RevB
+Bluetooth PAN
+Ethernet
+Details
+Services
+Performance
+Processes
+Startup
+Users
+App history
+Task Manager
+Do you want to end %s?
+If an open program is associated with this process, it will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+End process*Do you want to end the process tree of %s?
+If open programs or processes are associated with this process tree, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+End process tree*Do you want to end the selected processes?
+If open programs are associated with the selected processes, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?.Do you want to end the selected process trees?
+If open programs or processes are associated with the selected process trees, they will close and you will lose any unsaved data. If you end a system process, it might result in system instability. Are you sure you want to continue?
+Select columns
+1Select the columns that will appear in the table.
++Do you want to end the system process '%s'?
+Ending this process will cause Windows to become unusable or shut down, causing you to lose any data hasn't been saved. Are you sure you want to continue?
+Shut down#Abandon unsaved data and shut down.+Do you want to change the priority of '%s'?
+JChanging the priority of certain processes could cause system instability.
+Change priority
+Unable to change priorityIUnable to set priority to Realtime. The priority was set to High instead.MChanging the priority will turn off Efficiency mode. Do you want to continue?
+MWhen attempting to execute the command, the following system error occurred: 
+1 B/sec
+1 KB/sec
+10 KB/sec
+100 KB/sec
+1 MB/sec
+10 MB/sec
+100 MB/sec
+1 GB/sec
+1 bps
+10 Kbps
+1 Mbps
+10 Mbps
+100 Mbps
+1 Gbps
+10 Gbps
+100 Gbps
+100 Kbps
+100 Kbps
+500 Kbps
+1 Mbps
+11 Mbps
+54 Mbps
+100 Mbps
+500 Mbps
+1 Gbps
+10 Gbps
+100 Gbps
+450 Kbps
+800 Kbps
+7.7 Mbps
+32 Mbps
+50 Mbps
+200 Mbps
+300 Mbps
+2 Gbps
+10 Gbps
+100 KB/s
+500 KB/s
+1 MB/s
+10 MB/s
+100 MB/s
+250 MB/s
+500 MB/s
+1 GB/s
+10 GB/s
+100 GB/s
+450 KB/s
+800 KB/s
+7 MB/s
+60 MB/s
+125 MB/s
+200 MB/s
+300 MB/s
+2 GB/s
+10 GB/s
+Kbps
+Mbps
+Gbps
+B/sec
+KB/s
+MB/s
+GB/s
+5 Mbps
+26 Mbps
+250 Mbps
+3.6 Mbps
+17 Mbps
+113 Mbps
+%I64d B/sec disk I/O
+%I64d KB/sec disk I/O
+%I64d MB/sec disk I/O
+%I64d GB/sec disk I/O
+%I64d bps network I/O
+%I64d Kbps network I/O
+%I64d Mbps network I/O
+%I64d Gbps network I/O
+%I64d%% CPU usage
+%I64d%% Used physical memory
+%I64d Hard faults/sec
+%I64d%% Maximum frequency
+%I64d%% network utilization
+%I64d%% Highest active time
+%I64d MB in use
+%I64d MB available
+%d MB
+Disk %s (%s) queue length
+%s (PID: %d) Thread: %s0One or more threads of %s are in waiting status.'%s is waiting for another process (%s).
+%s is waiting for a process in deadlock (%s). You can end the deadlocked process to resolve the issue immediately, or you can wait to see if the issue resolves itself.
+%s is waiting for multiple processes in deadlock. You can end the deadlocked processes to resolve the issue immediately, or you can wait to see if the issue resolves itself.
+%s is in deadlock. You can end the process to resolve the deadlock immediately, or you can wait to see if the issue resolves itself.
+%s is in deadlock with one or more processes. You can end the processes to resolve the deadlock immediately, or you can wait to see if the issue resolves itself.
+%s is not responding.<One or more threads of %s are waiting to finish network I/O.=%s is waiting for another process (%s) to finish network I/O.
+%s is running normally.
+%s is suspended.
+ (Page file)
+%s (%s)
+ (NTFS volume log)
+ (NTFS master file table)
+ (NTFS free space map)
+%s *32
+%1%2
+Process ID
+,Total processor utilization across all coresDTotal processor time, in seconds, used by a process since it started<Current percent of CPU cycle time consumption by the process9Amount of physical memory currently in use by the process5Maximum amount of physical memory used by the process*Change in working set usage by the processxAmount of physical memory in use by the process that can't be used by other processes (excludes suspended UWP processes)VAmount of physical memory in use by the process that cannot be used by other processesWAmount of physical memory in use by the process that can be shared with other processesIAmount of virtual memory reserved by the operating system for the process\Amount of pageable kernel memory allocated by the kernel or drivers on behalf of the process`Amount of non-pageable kernel memory allocated by the kernel or drivers on behalf of the processCNumber of page faults generated by the process since it was startedHChange in the number of page faults in the process since the last updateMRanking that determines the order in which threads of a process are scheduled-Current number of handles open by the process
+Number of active threadspNumber of window manager objects (windows, menus, cursors, keyboard layouts, monitors, etc.) used by the process)Number of GDI objects used by the processKNumber of read I/O operations generated by the process since it was startedLNumber of write I/O operations generated by the process since it was started{Number of non-read/non-write I/O operations (for instance, control functions) generated by the process since it was started;Total number of bytes read by the process in I/O operations>Total number of bytes written by the process in I/O operationssTotal number of bytes read by the process in I/O operations other than read/write (for instance, control functions)
+Path of the executable file1Full command line specified to create the process8Operating system context in which the process is running;Platform (16 bit or 32 bit) on which the process is running;Platform (32 bit or 64 bit) on which the process is running
+Process execution status8Specifies whether the process is running elevated or not
+dSpecifies whether Data Execution Prevention (a security feature) enabled or disabled for the process*Job object in which the process is running,File: Name of the file in use by the processVRead (B/sec): Average number of bytes per second read from the file in the last minuteXWrite (B/sec): Average number of bytes per second written to the file in the last minute&IO priority: Priority of I/O transfers6Response time (ms): Disk response time in millisecondsHSend (B/sec): Average number of bytes per second sent in the last minuteOReceive (B/sec): Average number of bytes per second received in the last minutePTotal (B/sec): Average number of bytes per second transferred in the last minute
+Service name
+Service process ID
+Description of the service
+Service status
+Service groupGCPU: Current percent of CPU consumption by services within this process
+#Logical drive: Logical drive letterfTotal (B/sec): Average number of bytes per second read from and written to the file in the last minute6Amount of time spent by the CPU executing instructions;Amount of network activity, including downloads and uploads2Network activity over a metered network connection%Total network usage for notifications8Amount of network activity over a non-metered connection$Download activity by the application"Upload activity by the application,Architecture on which the process is runningsSpecifies the status of Hardware-enforced Stack Protection (a security feature using shadow stacks) for the process]Specifies the status of Extended Control Flow Guard (XFG, a security feature) for the process|Specifies the status of Hardware-enforced Stack Protection (a security feature using return address signing) for the process
+oSpecifies whether User Account Control (UAC) virtualization is enabled, disabled, or not allowed in the process
+/Manage running apps and view system performance
+Default System Session
+Service Host: ActiveX Installer
+Service Host: Bluetooth Support*Service Host: DCOM Server Process Launcher
+Service Host: Disk Defragmenter-Service Host: Windows Image Acquisition (WIA)
+Service Host: Local Service.Service Host: Local Service (No Impersonation)0Service Host: Local Service (Network Restricted)(Service Host: Local Service (No Network)-Service Host: Local Service (Peer Networking)/Service Host: Local System (Network Restricted)
+Service Host: Local System
+Service Host: Network Service0Service Host: Network Service (No Impersonation)2Service Host: Network Service (Network Restricted)
+Service Host: BranchCache
+Service Host: Remote Registry#Service Host: Remote Procedure Call
+Service Host: Windows Backup
+Service Host: Windows Defender5Service Host: Microsoft Software Shadow Copy Provider
+Service Host: Windows Biometric"Service Host: Windows Color System%Service Host: Windows Error Reporting'Service Host: Virtual Machine Heartbeat1Service Host: IIS Application Host Helper Service*Service Host: Internet Information Service
+Service Host: Printer Services
+*Service Host: File Server Resource Manager
+Service Host: Group Policy$Service Host: Unistack Service Group
+Service Host: UtcSvc
+Service Host: 
+pHardware reserved (%1!s! MB)
+Memory that is reserved for use by the BIOS and some drivers for other peripherals
+In use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+In use compressed (%2!s! MB)
+Memory compression is not enabledlModified (%1!s! MB)
+Memory whose contents must be written to disk before it can be used for another purposeYStandby (%1!s! MB)
+Memory that contains cached data and code that is not actively in use
+Free (%1!s! MB)
+Memory that is not currently in use, and that will be repurposed first when processes, drivers, or the operating system need more memory
+Cached (%1!s! MB)
+Amount of memory (including standby and modified memory) containing cached data and code for rapid access by processes, drivers, and the operating system
+Available (%1!s! MB)
+Amount of memory (including Standby and Free memory) that is immediately available for use by processes, drivers, or the operating system
+In use (%1!s! MB)
+Memory used by processes, drivers, or the operating system
+In use compressed (%2!s! MB)
+Compressed memory stores an estimated %3!s! MB of data, saving the system %4!s! MB of memory
+Other
+Unknown
+Reserved
+Not Found
+Logical non-volatile device
+Other
+Unknown
+Chip
+Proprietary Card
+Row of chips
+Not Found
+Memory composition chart
+100%
+Paused
+4 minutes
+60 seconds
+30 seconds
+Modified
+Disk
+In Use
+Standby
+Free
+Memory
+Network
+Services
+Memory
+Tab control
+Charts
+Tables
+Process details
+Base speed:
+Sockets:
+Logical processors:
+Host logical processors:
+Virtualization:
+Virtual machine:
+L1 cache:
+L2 cache:
+L3 cache:
+Enabled
+Disabled
+Not capable
+Cores:
+Virtual processors:
+Hyper-V support:
+Utilization
+Speed
+Up time
+Processes
+Threads
+Handles
+% Utilization over 4 minutes
+% Utilization over 30 seconds
+Logical processors
+% Utilization over 60 seconds
+% Utilization
+%s GHz
+% Utilization (Paused)
+Open Resource Monitor
+%1!d!%2!s!
+CPU %d
+CPU %1!d! (Node %2!d!)
+NUMA node %d
+%s - Parked
+%1!d!%2!s!
+%1!d!%2!s! (%3!d!%4!s!)
+Open Resource Monitor icon
+Open Services icon
+CPU %d @ %s GHz
+Speed:
+Slots used:
+%1!u! of %2!u!
+Available
+Cached
+Committed
+In use
+Paged pool
+Non-paged pool
+Memory usage
+Memory composition
+%0.1f MB %s
+%0.1f GB %s
+%1.0f MB %s
+%1.0f GB %s
+%u MHz
+%s KB
+%1!s!/%2!s! MB
+%1!s! (%2!s!)
+%1!s!/%2!s! GB
+Form factor:
+Hardware reserved:
+Maximum memory:
+(%.0f%%)
+Slot %1!u!: %2!s!, %3!hu! MHz
+Slot %1!u!: empty
+%1!s! %2!s!
+%1!s!/%2!s! TB
+%s MB
+%s GB
+%s TB
+%s PB
+In use (Compressed)
+Disk %1!d! (%2!s!)
+Type:
+Capacity:
+Formatted:
+System disk:
+Page file:
+Read speed
+Write speed
+Average response time
+Disk transfer rate
+Active time
+100%
+Disk %d
+%s ms
+%1!s! %2!s! 
+%.0f%%
+Persistent Memory
+Removable
+Unknown
+Total installed memory
+Memory usage in percentage
+Overall CPU chart pane
+Logical CPU chart pane
+Numa node CPU chart pane
+Available range
+Cached range
+Separator bar
+CPU Icon
+Memory Icon
+Disk Icon
+Network Icon
+Disconnected network graph
+Dynamic Resource Information
+Static Resource Information
+Resource Chart View
+Disconnected network icon
+GPU Icon
+Adapter name:
+Service provider:
+Connection type:
+IPv4 address:
+IPv6 address:
+DNS name:
+Domain name:
+Device name:
+SSID:
+Throughput
+Receive
+Send
+%1!s! %2!s!
+Signal strength:
+%1!s! 
+%1!s! %2!s! 
+Not connected
+CPU activity
+Private working set$Read and write activity on this disk@Percentage of time the disk is processing read or write requests)Send and receive activity on this network
+GPU activityASend and receive activity on this Bluetooth personal area network
+Property
+Network utilization
+Link speed
+State
+Bytes sent throughput
+Bytes received throughput
+Bytes throughput
+Bytes sent
+Bytes received
+Bytes
+Bytes sent per interval
+Bytes received per interval
+Bytes per interval
+Unicasts sent
+Unicasts received
+Unicasts
+Unicasts sent per interval
+Unicasts received per interval
+Unicasts per interval
+Nonunicasts sent
+Nonunicasts received
+Nonunicasts
+Nonunicasts sent per interval!Nonunicasts received per interval
+Nonunicasts per interval
+Generic Bluetooth Adapter
+Ethernet
+Wi-Fi
+Mobile
+Wi-Fi Direct
+WLAN Direct
+CPU %1!u!
+CPU %2!u! (Node %1!d!)
+<All Processors>
+Group %1!u!
+WLAN
+Busy
+Disabled
+Enabled
+Not responding
+Suspended
+Waiting for user
+Shadowing
+Disconnected
+Local
+Remote
+Very low
+Moderate
+High
+Very high
+Efficiency mode
+User
+Process
+Window
+Service
+Startup item
+Startup process
+Tray icon
+%1: %2
+Apps
+%1 %2
+%1 %2 %3
+%1 %2 %3 %4 %5
+Name
+Type
+Status
+Publisher
+Process name
+Command line
+Memory
+Disk
+Network
+Startup impact
+Startup type
+Disk I/O at startup
+CPU at startup
+Running now
+Disabled time
+Client name
+Session
+User
+%1 (%2!d!)
+%s MB
+%s ms
+%s MB
+%s MB/s
+%s Mbps
+%s%%
+Name
+CPU time
+Network
+Notifications
+Metered network
+Non-metered network
+Downloads
+Uploads
+Sorted (ascending)
+Sorted (descending)
+None
+Apps
+Background processes
+Windows processes
+Resource &values
+Disabled
+Enabled
+Not allowed
+Background process
+Windows process
+More details
+Fewer details
+Row details
+List of items
+More &details
+Fewer &details
+Create new taskeType the name of a program, folder, document, or Internet resource, and Windows will open it for you.2User %s (SessionId=%d) could not be disconnected.
+>If you sign out a user, the user's unsaved data might be lost.
+Do you want to continue?
+Sign out user9Are you sure you want to disconnect the selected user(s)?
+Disconnect user
+Message from %1 - %2:Your message to user with SessionId=%d could not be sent. 
+View
+Column header
+There are no running apps%The operation could not be completed.,The operation is not valid for this process.
+Unable to terminate process Unable to terminate process tree
+Unable to attach debugger
+Unable to change priority(Unable to access or set process affinity
+Dump process
+Command Bar
+Icon
+Unable to start service
+Unable to stop service
+Unable to restart service
+Unable to set virtualization.Do you want to change virtualization for '%s'?
+Changing virtualization for a process may lead to undesired results including loss of data. You should do this only for debugging.
+Change virtualization2Unhandled error occurred while connecting.
+#%u %s"Enter the selected user's password{You need administrator privileges to complete this task. Close Task Manager, then run it as an administrator and try again.
+Access denied.!Unable to turn on Efficiency mode
+Unable to select columns
+~You need administrator privileges to complete this task. Select 'Run as administrator' from the Navigation pane and try again.
+The necessary debug privilege could not be acquired. Ensure that you are running Task Manager as an administrator and try again.@The memory dump timed out or was manually cancelled by the user.:The memory dump was aborted due to system memory pressure.!Memory dump error code: NTSTATUS \After several attempts, the live memory dump could not be completed. Please try again later.zToo little time has passed since the last live memory dump request. Please wait at least two seconds for the next attempt.
+Memory dump process
+Live kernel memory dump process
+0Do you want to turn on Efficiency mode for '%s'?
+Efficiency mode will lower process priority and improve power efficiency but may cause instability for certain processes. Do you want to continue?
+Turn on Efficiency mode
+None
+Not measured
+Medium
+High
+Registry
+Folder
+%1 %2
+E&nable
+Dis&able
+Last BIOS time: 
+%1 seconds
+&End task
+&Restart
+&Switch user
+Si&gn out
+Dis&connect
+Open Services
+Switch &to
+Resource usage text
+Delete usage history
+No data available
+@Resource usage since %1!s! for current user and system accounts.
+Uninstalled processes
+Remote processes
+System4Resource usage since %1!s! for current user account.
+Duration :
+CCPU %1!d!%2!s!
+Memory %3!d!%4!s!
+Disk %5!d!%6!s!
+Network %7!d!%8!s! CPU %1!d!%2!s!
+Memory %3!d!%4!s!
+%There are no startup items to display,Total processor utilization across all cores*Physical memory in use by active processes,Total utilization across all physical drives2Network utilization on the current primary networkbDegree of impact from CPU and disk activity, measured during startup and updated with each restartDDisk activity, measured during startup and updated with each restartCCPU activity, measured during startup and updated with each restartKImpact hasn't been measured yet. Restart your PC to measure startup impact.*Highest utilization across all GPU enginesLThis UWP process group is suspending processes to improve system performance;This UWP process is suspended to improve system performancePThis process group is in efficiency mode to limit resources used by the process.JThis process is in efficiency mode to limit resources used by the process.
+-Windows system process for memory compression
+Personal
+Exempt
+Unenlightened
+Enlightened
+Permissive
+File copy exempt
+Disabled
+Enabled
+Microsoft Edge Manager
+Browser Extensions
+Microsoft Web Platform Control
+User Interface Service
+Chakra JIT Compiler
+Service Worker Host
+Background Tab Pool
+Adobe Flash Player
+Microsoft Edge Service Host
+Developer Tools Server
+Adapter name:
+Driver version:
+Driver date:
+DirectX version:
+Utilization
+%1!d!%2!s!
+% Utilization
+GPU %d
+GPU %d (Link %d)
+100%
+GPU Memory
+Dedicated GPU memory usage
+Shared GPU memory usage
+Dedicated GPU memory usage
+Shared GPU memory usage
+%.0f%%
+GPU engine
+GPU engine
+GPU dedicated 
+GPU system*Highest utilization across all GPU engines
+Most utilized GPU engineUTotal amount of GPU dedicated graphics memory in use (across all GPUs) by the processETotal amount of system memory in use (across all GPUs) by the process
+Overall GPU chart pane
+Multiple engine GPU chart pane
+Physical location:
+Hardware reserved memory:
+Dedicated GPU memory
+Shared GPU memory
+Power usage
+Power usage trend.CPU, Disk, and GPU impact on power consumption8CPU, Disk, and GPU impact on power consumption over time
+GPU Temperature
+(%d 
+1.0 : Compute
+Engine %u
+Video Decode
+Video Encode
+Copy
+Video Processing
+Scene Assembly
+Legacy Overlay
+Crypto
+,This option is managed by your organization.
+$Your device is running low on memoryNWe recommend you close some of the apps and processes below to free up memory.
+DPI AwarenessEDefault mode for how the application interacts with high DPI displays
+Unavailable
+Unaware
+Unaware (GDI Scaled)
+System
+Per-Monitor
+Per-Monitor (v2)
+0Unable to open feedback hub for selected process
+NPU %d
+Dedicated memory usage
+Shared memory usage
+Dedicated memory
+Shared memory
+Dedicated memory usage
+Shared memory usage
+NPU activity
+Total memory
+Media
+Media
+Media %d
+Media Accelerator activity
+Temperature
+ARM64
+ARM64 (x86 compatible)
+ARM64 (x64 compatible)
+Arm64
+Arm64 (x86 compatible)
+Arm64 (x64 compatible)
+JCouldn't get current process token. OpenProcessToken returns HRESULT 0x%X.LCouldn't lookup SeDebugPrivilege name. LookupPrivilegeValue returns hr 0x%X.HCouldn't acquire debug privilege. AcquireDebugPrivilege returns hr 0x%X.DCouldn't enable debug privilege. AdjustTokenPrivileges returns 0x%X.ZTimeout expired for live kernel memory dump collection. Please try again in a few seconds.nFailure while waiting for live kernel memory dump collection (status 0x%X). Please try again in a few seconds.dCancellation thread failed to wait until memory dump procedure timed out. Unknown wait failure 0x%X.?Failed to create thread for collecting memory dump. Error 0x%X.6Thread for collecting memory dump exited. Status 0x%X.1Directory handle creation failed with error 0x%X.=Live kernel memory dump file creation failed with error 0x%X.QFailed to set the security descriptor for the memory dump directory. Status 0x%X.&Failed to allocate Admin SID. Hr 0x%X.dFailed to create an ACL for live kernel memory dump (error 0x%X). Please check file access settings.AFailed to apply ACL to live kernel memory dump file (error 0x%X).sCurrent process does not have elevated privileges to collect live kernel memory dumps. Please run as Administrator.vToo little time has passed since the last live kernel memory dump request. Please wait and try again in a few seconds.ONo remaining attempts to retry this request. Please try again in a few seconds.cLive kernel memory dump cancel event was signalled. NtSystemDebugControl returned STATUS_CANCELLED.UThe live kernel memory dump collection was aborted due to system memory availability.:The live kernel memory dump failed with error code = 0x%X.3Live kernel memory dump was collected successfully.#Collecting live kernel memory dump.2Live kernel memory dump was written to path [%ls].GError parsing command line: argument already defined: [%ls] (index %d).?Error parsing command line: unknown argument: [%ls] (index %d).&Failed to initialize app dependencies.
+&Launch Task Manager from Startup page.$Run Task Manager in low-memory mode."Disable rejuvenated Xaml-based UX.
+Display this help message.6Collect a live memory dump and terminate Task Manager.(Add user mode pages to live memory dump.rAdd Hyper-V pages to live memory dump, excluding some pages unlikely to be useful for debugging (requires Hyper-V)<Add all Hyper-V pages to live memory dump (requires Hyper-V))Specify a cancel timeout in milliseconds.:Abort live memory dump if system is under memory pressure.aCollect a kernel stacks live memory dump. (This is incompatible with user and hyper-v arguments).WSpecifies the Hexadecimal Bugcheck code (ULONG) and Bugcheck parameters 1-4 (ULONG_PTR)
+Press Enter to change sorting.
+%u MT/s
+Slot %1!u!: %2!s!, %3!hu! MT/s
+Summary view
+SCSI
+ATAPI
+1394
+Fibre Channel
+RAID
+iSCSI
+SATA
+Virtual
+Spaces
+NVMe
+%1 (%2)
+CPU utility(Total processor utility across all cores
+ instances.
+IsolationJIsolation technology protecting apps and improving the security of your PC
+IsolationJIsolation technology protecting apps and improving the security of your PC
+Silo
+AppContainer
+NPU engine*Highest utilization across all NPU engines
+NPU engine
+Dedicated NPU memory
+Shared NPU memory*Highest utilization across all NPU engines
+Most utilized NPU engineLTotal amount of NPU dedicated memory in use (across all NPUs) by the processTTotal amount of shared system memory in use for NPU (across all NPUs) by the process
+Transient processes-CPU usage attributed to short-lived processes
+$Service Host: Windows App Management
+Response Time
+Info
+Start
+Stop
+Error
+Information
+Microsoft-Windows-Diagnosis-AdvancedTaskManager
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Microsoft Corporation
+FileDescription
+Task Manager
+FileVersion
+10.0.26100.9549 (WinBuild.160101.0800)
+InternalName
+Task Manager
+LegalCopyright
+ Microsoft Corporation. All rights reserved.
+OriginalFilename
+Taskmgr.exe.mui
+ProductName
+Microsoft
+ Windows
+ Operating System
+ProductVersion
+10.0.26100.9549
+VarFileInfo
+Translation

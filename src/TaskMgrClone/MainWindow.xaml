@@ -1,0 +1,133 @@
+<Window x:Class="TaskMgrClone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task Manager" Height="760" Width="1180" MinHeight="560" MinWidth="820"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource WindowBg}" Foreground="{DynamicResource TextPrimary}"
+        FontFamily="{DynamicResource UiFont}" FontSize="12"
+        UseLayoutRounding="True" SnapsToDevicePixels="True"
+        Closing="OnClosing" StateChanged="OnStateChanged" PreviewKeyDown="OnPreviewKeyDown" SizeChanged="OnWindowSizeChanged">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="NavColumn" Width="220" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- navigation pane -->
+        <Border Grid.Column="0" Background="{DynamicResource NavBg}"
+                BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,1,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Button x:Name="NavToggle" Grid.Row="0" Style="{StaticResource NavIconButton}"
+                        HorizontalAlignment="Left" Margin="10,10,8,6" Click="OnToggleNav"
+                        ToolTip="Navigation">
+                    <TextBlock Style="{StaticResource IconText}" Text="&#xE700;" FontSize="16" />
+                </Button>
+
+                <ListBox x:Name="NavList" Grid.Row="1" Background="Transparent" BorderThickness="0"
+                         ItemContainerStyle="{StaticResource NavItemStyle}"
+                         SelectionChanged="OnNavSelectionChanged"
+                         ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding Icon}" FontFamily="Segoe Fluent Icons, Segoe MDL2 Assets"
+                                           FontSize="16" Width="24" VerticalAlignment="Center" />
+                                <TextBlock Grid.Column="1" Text="{Binding Title}" Margin="10,0,0,0"
+                                           VerticalAlignment="Center" Visibility="{Binding LabelVisibility}"
+                                           TextTrimming="CharacterEllipsis" />
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <Button x:Name="SettingsButton" Grid.Row="2" Style="{StaticResource NavIconButton}"
+                        HorizontalAlignment="Left" Margin="10,4,8,10" Click="OnOpenSettings" ToolTip="Settings">
+                    <TextBlock Style="{StaticResource IconText}" Text="&#xE115;" FontSize="16" />
+                </Button>
+            </Grid>
+        </Border>
+
+        <!-- content -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="{DynamicResource ContentBg}"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1"
+                    Padding="20,0,10,0" Height="50">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="PageTitleText" Style="{StaticResource PageTitleText}" />
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                        <Button x:Name="RunNewTaskButton" Style="{StaticResource ToolbarButton}"
+                                Click="OnRunNewTask" ToolTip="Run a new task (Ctrl+Shift+N)">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Style="{StaticResource IconText}" Text="&#xE710;" Margin="0,0,8,0" />
+                                <TextBlock Text="Run new task" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="PrimaryCommandButton" Style="{StaticResource ToolbarButton}"
+                                Click="OnPrimaryCommand" Visibility="Collapsed">
+                            <TextBlock x:Name="PrimaryCommandText" />
+                        </Button>
+
+                        <Button x:Name="EfficiencyButton" Style="{StaticResource ToolbarButton}"
+                                Click="OnEfficiencyCommand" ToolTip="Efficiency mode" Visibility="Collapsed">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Style="{StaticResource IconText}" Text="&#xE945;" Margin="0,0,8,0" />
+                                <TextBlock x:Name="EfficiencyLabel" Text="Efficiency mode" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+
+                        <Grid x:Name="SearchHost" Width="170" Margin="8,0,0,0" VerticalAlignment="Center">
+                            <TextBox x:Name="SearchBox" Height="30" VerticalContentAlignment="Center"
+                                     Padding="30,0,8,0" TextChanged="OnSearchTextChanged" />
+                            <TextBlock Text="&#xE721;" FontFamily="Segoe Fluent Icons, Segoe MDL2 Assets"
+                                       Margin="9,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"
+                                       IsHitTestVisible="False" Foreground="{DynamicResource TextSecondary}" />
+                            <TextBlock x:Name="SearchHint" Text="Search" Margin="32,0,0,0"
+                                       VerticalAlignment="Center" IsHitTestVisible="False"
+                                       Foreground="{DynamicResource TextTertiary}" />
+                        </Grid>
+
+                        <Button x:Name="OverflowButton" Style="{StaticResource ToolbarButton}"
+                                Click="OnOverflow" ToolTip="More">
+                            <TextBlock Text="&#xE712;" FontFamily="Segoe Fluent Icons, Segoe MDL2 Assets" FontSize="14" />
+                            <Button.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem x:Name="AlwaysOnTopMenu" Header="Always on top" IsCheckable="True"
+                                              Click="OnToggleAlwaysOnTop" />
+                                    <MenuItem Header="Refresh now" Click="OnRefreshNow" />
+                                    <MenuItem Header="Settings" Click="OnOpenSettings" />
+                                    <Separator />
+                                    <MenuItem Header="About Task Manager" Click="OnAbout" />
+                                </ContextMenu>
+                            </Button.ContextMenu>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <ContentControl Grid.Row="1" x:Name="PageHost" Focusable="False"
+                            HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+        </Grid>
+    </Grid>
+</Window>

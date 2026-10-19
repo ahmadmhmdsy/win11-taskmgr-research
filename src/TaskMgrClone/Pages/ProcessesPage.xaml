@@ -1,0 +1,231 @@
+<ui:PageBase x:Class="TaskMgrClone.Pages.ProcessesPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="clr-namespace:TaskMgrClone.UI"
+             xmlns:local="clr-namespace:TaskMgrClone.Pages"
+             Background="{DynamicResource ContentBg}"
+             FontFamily="{DynamicResource UiFont}" FontSize="{DynamicResource BodySize}">
+    <ui:PageBase.Resources>
+        <ui:BytesConverter x:Key="Bytes" />
+        <ui:RateConverter x:Key="Rate" />
+        <ui:MbpsConverter x:Key="Mbps" />
+        <ui:PercentConverter x:Key="Percent" />
+        <ui:ProcessIconConverter x:Key="ProcessIcon" />
+        <ui:GroupTitleConverter x:Key="GroupTitle" />
+        <local:ProcessStatusConverter x:Key="StatusText" />
+        <local:ProcessGpuConverter x:Key="GpuText" />
+        <local:EfficiencyBadgeConverter x:Key="EfficiencyBadge" />
+
+        <Style x:Key="TextCell" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+        </Style>
+        <Style x:Key="NumCell" TargetType="TextBlock" BasedOn="{StaticResource TextCell}">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="Margin" Value="0,0,2,0" />
+        </Style>
+        <Style x:Key="NumHeader" TargetType="DataGridColumnHeader"
+               BasedOn="{StaticResource {x:Type DataGridColumnHeader}}">
+            <Setter Property="HorizontalContentAlignment" Value="Right" />
+        </Style>
+
+        <!-- group header row: 36px, chevron + title, whole row is the toggle -->
+        <Style x:Key="GroupHeaderToggle" TargetType="ToggleButton">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Border x:Name="Bd" Background="Transparent" Height="36" Padding="10,0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="Chevron" Text="&#xE70D;"
+                                           FontFamily="Segoe Fluent Icons, Segoe MDL2 Assets" FontSize="10"
+                                           Foreground="{DynamicResource TextSecondary}"
+                                           VerticalAlignment="Center" Margin="0,0,8,0" />
+                                <ContentPresenter Grid.Column="1" VerticalAlignment="Center"
+                                                  HorizontalAlignment="Left"
+                                                  Content="{TemplateBinding Content}"
+                                                  ContentTemplate="{TemplateBinding ContentTemplate}" />
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter TargetName="Chevron" Property="Text" Value="&#xE76C;" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource HoverBg}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="GroupExpander" TargetType="Expander">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Expander">
+                        <StackPanel>
+                            <ToggleButton x:Name="HeaderSite"
+                                          IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"
+                                          Style="{StaticResource GroupHeaderToggle}"
+                                          Content="{TemplateBinding Header}"
+                                          ContentTemplate="{TemplateBinding HeaderTemplate}" />
+                            <ContentPresenter x:Name="ExpandSite" Visibility="Collapsed"
+                                              ContentSource="Content" HorizontalAlignment="Stretch" />
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsExpanded" Value="True">
+                                <Setter TargetName="ExpandSite" Property="Visibility" Value="Visible" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ui:PageBase.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <DataGrid x:Name="ProcessGrid" Grid.Row="0"
+                  Background="{DynamicResource ContentBg}" BorderThickness="0"
+                  AutoGenerateColumns="False" IsReadOnly="True"
+                  SelectionMode="Extended" SelectionUnit="FullRow"
+                  HeadersVisibility="Column" GridLinesVisibility="None"
+                  CanUserAddRows="False" CanUserDeleteRows="False"
+                  CanUserResizeRows="False" CanUserReorderColumns="False"
+                  CanUserSortColumns="True"
+                  RowHeight="36" ColumnHeaderHeight="32"
+                  RowStyle="{StaticResource ProcessRowStyle}"
+                  EnableRowVirtualization="True" EnableColumnVirtualization="True"
+                  VirtualizingPanel.VirtualizationMode="Recycling"
+                  VirtualizingPanel.IsVirtualizingWhenGrouping="True"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  Sorting="OnSorting"
+                  ContextMenuOpening="OnGridContextMenuOpening"
+                  PreviewMouseRightButtonDown="OnGridPreviewMouseRightButtonDown"
+                  MouseDoubleClick="OnRowDoubleClick">
+            <DataGrid.ContextMenu>
+                <ContextMenu Opened="OnRowContextMenuOpened">
+                    <MenuItem x:Name="EndTaskMenu" Header="End task" Click="OnEndTaskMenu" />
+                    <MenuItem x:Name="EfficiencyMenu" Header="Efficiency mode" IsCheckable="True"
+                              Click="OnEfficiencyMenu" />
+                    <Separator />
+                    <MenuItem x:Name="RestartMenu" Header="Restart" Click="OnRestartMenu" />
+                    <MenuItem x:Name="DumpMenu" Header="Create dump file" Click="OnCreateDumpMenu" />
+                    <Separator />
+                    <MenuItem x:Name="OpenLocationMenu" Header="Open file location" Click="OnOpenLocationMenu" />
+                    <MenuItem x:Name="SearchOnlineMenu" Header="Search online" Click="OnSearchOnlineMenu" />
+                    <Separator />
+                    <MenuItem x:Name="PropertiesMenu" Header="Properties" Click="OnPropertiesMenu" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <EventSetter Event="Loaded" Handler="OnGroupItemLoaded" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander Style="{StaticResource GroupExpander}">
+                                            <Expander.Header>
+                                                <TextBlock Text="{Binding Name, Converter={StaticResource GroupTitle}}"
+                                                           Foreground="{DynamicResource TextPrimary}"
+                                                           VerticalAlignment="Center" />
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+
+            <DataGrid.Columns>
+                <!-- No star sizing: a star column inside a *grouped* DataGrid with horizontal
+                     scrolling/column virtualization swallows the whole viewport and pushes the
+                     fixed columns out of view (WPF bug). The width is computed in code-behind to
+                     fill the viewport instead (UpdateNameColumnWidth). -->
+                <DataGridTemplateColumn x:Name="NameColumn" Header="Name" Width="380" MinWidth="220"
+                                        SortMemberPath="Name" CanUserSort="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Image Width="16" Height="16" VerticalAlignment="Center" Margin="0,0,8,0"
+                                       Source="{Binding Path, Converter={StaticResource ProcessIcon}}" />
+                                <TextBlock Grid.Column="1" Text="{Binding Name}"
+                                           VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
+                                <Border Grid.Column="2" Margin="8,0,0,0" Padding="5,0" CornerRadius="3"
+                                        VerticalAlignment="Center"
+                                        Background="{DynamicResource HoverBg}"
+                                        BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                                        Visibility="{Binding Converter={StaticResource EfficiencyBadge}}">
+                                    <TextBlock Text="Efficiency mode" FontSize="10"
+                                               Foreground="{DynamicResource TextSecondary}" />
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Header="Status" Width="120" SortMemberPath="Status"
+                                    Binding="{Binding Converter={StaticResource StatusText}}"
+                                    ElementStyle="{StaticResource TextCell}" />
+
+                <DataGridTextColumn Header="CPU" Width="64" SortMemberPath="CpuPercent"
+                                    Binding="{Binding CpuPercent, Converter={StaticResource Percent}}"
+                                    ElementStyle="{StaticResource NumCell}"
+                                    HeaderStyle="{StaticResource NumHeader}" />
+
+                <DataGridTextColumn Header="Memory" Width="92" SortMemberPath="WorkingSetBytes"
+                                    Binding="{Binding WorkingSetBytes, Converter={StaticResource Bytes}}"
+                                    ElementStyle="{StaticResource NumCell}"
+                                    HeaderStyle="{StaticResource NumHeader}" />
+
+                <DataGridTextColumn Header="Disk" Width="88" SortMemberPath="DiskBytesPerSec"
+                                    Binding="{Binding DiskBytesPerSec, Converter={StaticResource Rate}}"
+                                    ElementStyle="{StaticResource NumCell}"
+                                    HeaderStyle="{StaticResource NumHeader}" />
+
+                <DataGridTextColumn Header="Network" Width="92" SortMemberPath="NetworkBytesPerSec"
+                                    Binding="{Binding NetworkBytesPerSec, Converter={StaticResource Mbps}}"
+                                    ElementStyle="{StaticResource NumCell}"
+                                    HeaderStyle="{StaticResource NumHeader}" />
+
+                <DataGridTextColumn Header="GPU" Width="64" SortMemberPath="GpuPercent"
+                                    Binding="{Binding Converter={StaticResource GpuText}}"
+                                    ElementStyle="{StaticResource NumCell}"
+                                    HeaderStyle="{StaticResource NumHeader}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Border Grid.Row="1" Height="30" Padding="12,0"
+                BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0">
+            <TextBlock x:Name="CountText" Text="0 processes" VerticalAlignment="Center"
+                       Style="{StaticResource SubtleText}" />
+        </Border>
+    </Grid>
+</ui:PageBase>

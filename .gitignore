@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+dist/
+
+# Local session artifacts (agent transcripts, handoffs)
+.dsh/
+
+# Local archived prototypes (kept out of the published repository)
+archive/
+
+# IDE / editor
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp

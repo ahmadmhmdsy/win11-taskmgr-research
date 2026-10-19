@@ -1,0 +1,44 @@
+[Window] name='Task Manager' id='' class='TaskManagerWindow' rect=842,131,944,722 enabled=True offscreen=False
+  [Pane] name='DesktopWindowXamlSource' id='' class='Windows.UI.Composition.DesktopWindowContentBridge' rect=851,196,926,648 enabled=True offscreen=False
+    [Pane] name='' id='' class='Windows.UI.Input.InputSite.WindowClass' rect=,,, enabled=True offscreen=False
+  [Pane] name='Glass Window' id='' class='GlassWindow' rect=1136,140,408,47 enabled=True offscreen=False
+  [Pane] name='Glass Window' id='' class='GlassWindow' rect=907,140,229,47 enabled=True offscreen=False
+  [Pane] name='DesktopWindowXamlSource' id='' class='Windows.UI.Composition.DesktopWindowContentBridge' rect=907,140,637,47 enabled=True offscreen=False
+    [Pane] name='' id='' class='Windows.UI.Input.InputSite.WindowClass' rect=,,, enabled=True offscreen=False
+  [Pane] name='DesktopWindowXamlSource' id='' class='Windows.UI.Composition.DesktopWindowContentBridge' rect=911,196,866,64 enabled=True offscreen=False
+    [Pane] name='' id='' class='Windows.UI.Input.InputSite.WindowClass' rect=,,, enabled=True offscreen=False
+  [Pane] name='TaskManagerMain' id='' class='NativeHWNDHost' rect=913,261,864,583 enabled=True offscreen=False
+    [Pane] name='' id='' class='DirectUIHWND' rect=913,261,864,583 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1154,270,21,574 enabled=True offscreen=False
+        [Pane] name='' id='' class='ScrollBar' rect=1154,270,21,574 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1756,261,21,583 enabled=True offscreen=False
+        [Pane] name='' id='' class='ScrollBar' rect=1756,261,21,583 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,282,75,50 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,282,75,50 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,357,75,50 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,357,75,50 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,432,75,62 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,432,75,62 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,519,75,62 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,519,75,62 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,606,75,62 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,606,75,62 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,693,75,62 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,693,75,62 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=930,780,75,62 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=930,780,75,62 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1215,360,246,94 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1215,360,246,94 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1473,360,247,94 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1473,360,247,94 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1215,493,246,94 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1215,493,246,94 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1473,493,247,94 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1473,493,247,94 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1212,623,511,84 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1212,623,511,84 enabled=True offscreen=False
+      [Pane] name='' id='' class='CtrlNotifySink' rect=1212,734,511,84 enabled=True offscreen=False
+        [Pane] name='' id='' class='CvChartWindow' rect=1212,734,511,84 enabled=True offscreen=False
+  [Pane] name='DesktopWindowXamlSource' id='' class='Windows.UI.Composition.DesktopWindowContentBridge' rect=911,261,866,583 enabled=True offscreen=False
+    [Pane] name='' id='' class='Windows.UI.Input.InputSite.WindowClass' rect=,,, enabled=True offscreen=False
+  [TitleBar] name='Task Manager' id='TitleBar' class='' rect=0,0,0,0 enabled=True offscreen=False
